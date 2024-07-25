@@ -9,7 +9,7 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <div className="mx-auto grid grid-cols-2 md:flex md:flex-row bg-[#171f44] bg-gradient-to-t text-white max-w-screen px-6 py-1 md:py-4 md:justify-between">
+      <div className="mx-auto grid grid-cols-2 md:flex md:flex-row bg-[#171f44] bg-gradient-to-t text-white max-w-screen px-6 py-1 md:py-2 md:justify-between">
         <div className="flex my-2 object-contain items-center justify-center">
           <Image src="/logomun2.png" alt="Logo" width={160} height={130} />
         </div>
