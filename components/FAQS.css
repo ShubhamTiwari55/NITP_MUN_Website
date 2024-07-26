@@ -1,0 +1,567 @@
+.faqs-body{
+    margin: 0;
+    width: 100vw;
+    height: 400vh;
+    background-color: #1b2138;
+}
+
+.nav-cover{
+position: absolute;
+top: 0;
+ width:12vw;
+ height: 10vh;
+ background-color: #000829;
+}
+
+.faqs-bg{
+    width: 100vw;
+    height: 110vh;
+    opacity: 0.1;
+}
+
+.faq-bg1{
+    opacity: 0.1;
+    position: absolute;
+    top:150vh;
+    left: 25vw;
+    width: 50vw;
+    height: auto;
+}
+.faq-bg2{
+    opacity: 0.1;
+    position: absolute;
+    top:300vh;
+    left: 25vw;
+    width: 50vw;
+    height: auto;
+}
+
+.faqs-hero{
+    z-index: 1;
+    width: 33vw;
+    height: 120vh;
+    background-color: #000829;
+    margin-left: 2.8vw;
+    position: absolute;
+    top:0vh;
+    
+}
+
+.faqs-logo-mun{
+    position: relative;
+    top: 25vh;
+    left: 4vw;
+    width: 33vw;
+    height: 59vh;
+}
+
+.faqs-title{
+    position: absolute;
+    top:40vh;
+    right: 14vw;
+
+    color: #FBD784;
+font-family: Montserrat;
+font-size: 12.5vw;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+.faqs-date{
+    position: absolute;
+    top:80vh;
+    right: 5vw;
+    color: #FBD784;
+font-family: Montserrat;
+font-size: 2.25vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.faqs{
+    z-index: 2;
+    cursor: pointer;
+    position: absolute;
+    top: 140vh;
+    left: 10vw;
+    width:80vw;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.faq{
+    overflow: hidden;
+    margin: 5vw;
+    width: 70vw;
+    height:10vh;
+    border-radius:1vw;
+    padding: 2vh;
+    background: linear-gradient(92deg, rgba(251, 250, 250, 0.1) 1.23%, rgba(149, 148, 148, 0.20) 99.71%);
+stroke-width: 1px;
+stroke: #FFF;
+display: block;
+align-items: center;
+
+transition: all 0.5s;
+transform-origin: 50% 50%;
+}
+
+.faq:hover{
+    transform: scale(1.01);
+    box-shadow:0vw 0vw 2vw rgb(0, 0, 0);
+}
+
+.faq-active{
+    overflow: hidden;
+    margin: 5vw;
+    width: 70vw;
+    height:25vh;
+    border-radius:1vw;
+    padding: 2vh;
+    background: linear-gradient(92deg, rgba(251, 250, 250, 0.50) 1.23%, rgba(149, 148, 148, 0.20) 99.71%);
+stroke-width: 1px;
+stroke: #FFF;
+
+transition: all 0.5s;
+
+display: block;
+align-items: center;
+}
+
+.faq-active:hover{
+    transform: scale(1.01);
+    box-shadow:0vw 0vh 2vw rgb(0, 0, 0);
+
+}
+
+.faq-line{
+    position: relative;
+    top: 3vh;
+    left: 1vw;
+    width: 66vw;
+    height:0.2vh;
+    background: #fff;
+}
+
+.faq-q{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 2.25vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.faq-a{
+    margin: 5vh;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.25vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.plus{
+    position: relative;
+    left: 65vw;
+    top: -20vh;
+
+    color: #FFF;
+font-family: Montserrat;
+font-size: 2.25vw;
+font-style:normal;
+font-weight:bolder;
+line-height: normal;
+}
+
+@media (max-aspect-ratio:10/16){
+    .faqs-body{
+        margin: 0;
+        width: 100vw;
+        height:200vh;
+        background-color: #1b2138;
+        display: flex;
+    }
+    
+    .nav-cover{
+    position: absolute;
+    top: 0;
+     width:0vw;
+     height: 0vh;
+     background-color: #000829;
+    }
+    
+    .faqs-bg{
+        width: 100vw;
+        height: 30vh;
+        opacity: 0.1;
+    }
+    
+    .faq-bg1{
+        opacity: 0.1;
+        position: absolute;
+        top:120vh;
+        left: 25vw;
+        width: 50vw;
+        height: auto;
+    }
+    .faq-bg2{
+        opacity: 0.1;
+        position: absolute;
+        top:180vh;
+        left: 25vw;
+        width: 50vw;
+        height: auto;
+    }
+    
+
+    .faqs-hero{
+        z-index: 1;
+        width: 45vw;
+        height: 40vh;
+        background-color: #000829;
+        margin-left: 2.8vw;
+        position: absolute;
+        top:16vh;
+        left: 4vw;
+    }
+    
+    .faqs-logo-mun{
+        position: relative;
+        top: 10vh;
+        left: 2vw;
+        width: 40vw;
+        height: 50vh;
+    }
+    
+    .faqs-title{
+        position: absolute;
+        top:60vh;
+        right: 15vw;
+    
+        color: #FBD784;
+    font-family: Montserrat;
+    font-size: 12.5vh;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    
+    .faqs-date{
+        position: absolute;
+        top:78vh;
+        right: 10vw;
+        color: #FBD784;
+    font-family: Montserrat;
+    font-size: 2.25vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    
+.faqs{
+    z-index: 2;
+    cursor: pointer;
+    position: absolute;
+    top: 100vh;
+    left: 10vw;
+    width:80vw;
+
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.faq{
+    overflow: hidden;
+    margin: 5vw;
+    width: 70vw;
+    height:5vh;
+    border-radius:1vw;
+    padding: 2vh;
+    background: linear-gradient(92deg, rgba(251, 250, 250, 0.1) 1.23%, rgba(149, 148, 148, 0.20) 99.71%);
+stroke-width: 1px;
+stroke: #FFF;
+display: block;
+
+transition: all 0.5s;
+transform-origin: 50% 50%;
+}
+
+.faq:hover{
+    transform: scale(1.01);
+    box-shadow:0vw 0vw 2vw rgb(0, 0, 0);
+}
+
+.faq-active{
+    overflow: hidden;
+    margin: 5vw;
+    width: 70vw;
+    height:10vh;
+    border-radius:1vw;
+    padding: 2vh;
+    background: linear-gradient(92deg, rgba(251, 250, 250, 0.50) 1.23%, rgba(149, 148, 148, 0.20) 99.71%);
+stroke-width: 1px;
+stroke: #FFF;
+
+transition: all 0.5s;
+
+display: block;
+}
+
+.faq-active:hover{
+    transform: scale(1.01);
+    box-shadow:0vw 0vh 2vw rgb(0, 0, 0);
+
+}
+
+.faq-line{
+    position: relative;
+    top: 1vh;
+    left: -2vw;
+    width: 66vw;
+    height:0.2vh;
+    background: #fff;
+}
+
+.faq-q{
+    color: #FFF;
+font-family: Montserrat;
+font-size: 2.25vw;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.faq-a{
+    width: 50vw;
+    height: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.5vh;
+    margin-bottom: 2.5vh;
+    margin-left: 0vh;
+    margin-right: 0vh;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.25vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.plus{
+    position: relative;
+    left: 60vw;
+    top: -9vh;
+
+    color: #FFF;
+font-family: Montserrat;
+font-size: 2.25vw;
+font-style:normal;
+font-weight:bolder;
+line-height: normal;
+}
+
+}
+
+
+
+
+@media (min-aspect-ratio:10/16) and (max-aspect-ratio:1){
+    .faqs-body{
+        margin: 0;
+        width: 100vw;
+        height:250vh;
+        background-color: #1b2138;
+        display: flex;
+    }
+    
+    .nav-cover{
+    position: absolute;
+    top: 0;
+     width:0vw;
+     height: 0vh;
+     background-color: #000829;
+    }
+    
+    .faqs-bg{
+        width: 100vw;
+        height: 40vh;
+        opacity: 0.1;
+    }
+    
+    .faq-bg1{
+        opacity: 0.1;
+        position: absolute;
+        top:120vh;
+        left: 25vw;
+        width: 50vw;
+        height: auto;
+    }
+    .faq-bg2{
+        opacity: 0.1;
+        position: absolute;
+        top:190vh;
+        left: 25vw;
+        width: 50vw;
+        height: auto;
+    }
+
+    .faqs-hero{
+        z-index: 1;
+        width: 45vw;
+        height: 45vh;
+        background-color: #000829;
+        margin-left: 2.8vw;
+        position: absolute;
+        top:5vh;
+        left: 5vw;
+    }
+    
+    .faqs-logo-mun{
+        position: relative;
+        top: 6vh;
+        left: 2.5vw;
+        width: 40vw;
+        height: 50vh;
+    }
+    
+    .faqs-title{
+        position: absolute;
+        top:60vh;
+        right: 23vw;
+    
+        color: #FBD784;
+    font-family: Montserrat;
+    font-size: 15vh;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+    
+    .faqs-date{
+        position: absolute;
+        top:80vh;
+        right: 10vw;
+        color: #FBD784;
+    font-family: Montserrat;
+    font-size: 3vh;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    .faqs{
+        z-index: 2;
+        cursor: pointer;
+        position: absolute;
+        top: 100vh;
+        left: 10vw;
+        width:80vw;
+    
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .faq{
+        overflow: hidden;
+        margin: 5vw;
+        width: 70vw;
+        height:6vh;
+        border-radius:1vw;
+        padding: 2vh;
+        background: linear-gradient(92deg, rgba(251, 250, 250, 0.1) 1.23%, rgba(149, 148, 148, 0.20) 99.71%);
+    stroke-width: 1px;
+    stroke: #FFF;
+    display: block;
+    
+    transition: all 0.5s;
+    transform-origin: 50% 50%;
+    }
+    
+    .faq:hover{
+        transform: scale(1.01);
+        box-shadow:0vw 0vw 2vw rgb(0, 0, 0);
+    }
+    
+    .faq-active{
+        overflow: hidden;
+        margin: 5vw;
+        width: 70vw;
+        height:12vh;
+        border-radius:1vw;
+        padding: 2vh;
+        background: linear-gradient(92deg, rgba(251, 250, 250, 0.50) 1.23%, rgba(149, 148, 148, 0.20) 99.71%);
+    stroke-width: 1px;
+    stroke: #FFF;
+    
+    transition: all 0.5s;
+    
+    display: block;
+    }
+    
+    .faq-active:hover{
+        transform: scale(1.01);
+        box-shadow:0vw 0vh 2vw rgb(0, 0, 0);
+    
+    }
+    
+    .faq-line{
+        position: relative;
+        top: 1vh;
+        left: -1vw;
+        width: 66vw;
+        height:0.2vh;
+        background: #fff;
+    }
+    
+    .faq-q{
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.25vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    }
+    
+    .faq-a{
+        width: 50vw;
+        height: 2vh;
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2.5vh;
+        margin-bottom: 2.5vh;
+        margin-left: 0vh;
+        margin-right: 0vh;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 2.25vw;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    
+    .plus{
+        position: relative;
+        left: 60vw;
+        top: -9vh;
+    
+        color: #FFF;
+    font-family: Montserrat;
+    font-size: 2.25vw;
+    font-style:normal;
+    font-weight:bolder;
+    line-height: normal;
+    }
+    
+}
