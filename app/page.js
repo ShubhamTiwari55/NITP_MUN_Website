@@ -7,14 +7,15 @@ import Secratriat from "../pages/Secretariat/Secretariat";
 import Faqs from "@/pages/Faqs/FAQS";
 import LandingPgH from "@/pages/Home/LandingPgH" ;
 import HomePg from "@/pages/Home/HomePg" ;
+import RuleBook from "@/pages/Rulebook/RuleBook";
 
 export default function Home() {
   return (
     <>
-<RuleBook/>
-    {/* {/* <Secratriat /> */} */}
+{/* <RuleBook/> */}
+    {/* <Secratriat /> */} 
     {/* <Faqs/> */}
-    <LandingPgH/>
+    {/* <LandingPgH/> */}
     <HomePg/>
     </>
   );
