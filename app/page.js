@@ -11,8 +11,8 @@ import HomePg from "@/pages/Home/HomePg" ;
 export default function Home() {
   return (
     <>
-{/* <RuleBook/> */}
-    {/* <Secratriat /> */}
+<RuleBook/>
+    {/* {/* <Secratriat /> */} */}
     {/* <Faqs/> */}
     <LandingPgH/>
     <HomePg/>
