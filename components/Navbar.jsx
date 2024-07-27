@@ -7,8 +7,14 @@ const Navbar = () => {
   const [isnav, setIsnav] = useState(false);
 
   return (
-    <div className="bg-[#000829] resize w-screen max-w-screen">
-      <div className="flex justify-between items-center text-white p-4 mx-4 lg:p-0">
+    <div className="bg-[#000829] resize lg:min-h-28 w-screen max-w-screen font-extrabold justify-end"
+    style={{
+      backgroundImage: `url('navbar2.png')`,
+      backgroundRepeat: `no-repeat`,
+      backgroundPosition: `right`,
+    }}
+    >
+      <div className="flex justify-between items-center text-[#000829] p-4 mx-4 lg:p-0">
         <Link href="/">
           <div className="mr-[100px] cursor-pointer">
             <Image width={120} height={120} src="/logomun2.png" alt="logo" />
@@ -55,7 +61,7 @@ const Navbar = () => {
               { href: "/Alumni", text: "FAQS" },
             ].map((item, index) => (
               <li key={index}>
-                <Link href={item.href} className="p-2 font-['Coluna'] font-semibold rounded hover:rounded-full hover:bg-white hover:text-[#000829]">
+                <Link href={item.href} className="p-2 font-['Coluna'] font-semibold rounded hover:rounded-full hover:text-white hover:bg-[#000829]">
                   {item.text}
                 </Link>
               </li>

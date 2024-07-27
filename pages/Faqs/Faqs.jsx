@@ -1,7 +1,7 @@
 "use client";
 import { useState } from 'react'
 
-import './FAQS.css'
+import './Faqs.css'
 
 function Faqs(){
 
