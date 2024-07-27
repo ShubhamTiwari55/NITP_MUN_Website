@@ -9,8 +9,8 @@ import Faqs from "@/pages/Faqs/FAQS";
 export default function Home() {
   return (
     <>
-{/* <RuleBook/> */}
-    <Secratriat />
+<RuleBook/>
+    {/* <Secratriat /> */}
     {/* <Faqs/> */}
     </>
   );
