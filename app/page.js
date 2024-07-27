@@ -12,7 +12,7 @@ import RuleBook from "@/pages/Rulebook/RuleBook";
 export default function Home() {
   return (
     <>
-{/* <RuleBook/> */}
+<RuleBook/>
     {/* <Secratriat /> */} 
     {/* <Faqs/> */}
     {/* <LandingPgH/> */}
