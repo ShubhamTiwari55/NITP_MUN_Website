@@ -1,91 +1,82 @@
+"use client"
 import React from "react";
-
+import { useState , useEffect } from "react";
 function RuleBook() {
+
+  const [showFullDescription, setShowFullDescription] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  const [parentHeight, setParentHeight] = useState(500);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 500);
+      if (window.innerWidth >= 600 && window.innerWidth < 800) {
+        setParentHeight(780); // Adjust height for screens between 600px and 800px
+      } else {
+        setParentHeight(showFullDescription ? 700 : 380);
+      }
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, [showFullDescription]);
+
+  useEffect(() => {
+    setParentHeight(showFullDescription ? 300 : 280);
+  }, [showFullDescription]);
+
+  const handleReadMore = () => setShowFullDescription(true);
+  const handleReadLess = () => setShowFullDescription(false);
+
+  const fullText =
+    "Expresso is the club where literature and art collide, creating a vibrant community for passionate students. It's a dynamic hub designed to nurture and showcase your talents, whether in crafting words or painting visuals. Immerse yourself in poetry slams, art workshops, and diverse events that provide a platform to discover and showcase your creative flair. Connect with a supportive community of fellow students, writers, and artists, leaving an indelible mark in this enchanting space. From diverse opportunities to skill development workshops, Espresso Club is more than a club – it's a journey of creative discovery. Contribute to the college's cultural tapestry, organize events, participate in campus initiatives, and make a lasting impression. Ready to embark on this creative odyssey? Sign up, become a member, and let your unique talents complete our Espresso Club mosaic. Join us, and let your creativity brew in the extraordinary blend of inspiration!";
+  const shortText = fullText.split(" ").slice(0, 50).join(" ") + "...";
+
+
+
   return (
     <>
-      <div className="bg-gray-900 text-white p-20">
-        <section className="mb-10">
-          <div className="flex items-center mb-4">
-            <div className="">
-              <div className="text-7xl font-bold h-[45px] w-[45px] flex items-center justify-center text-gray-700">
-                01
-              </div>
-            </div>
-            <div className="relative text-lg font-bold text-[#FBD784]">
-              <div className="absolute left-[50px] top--5 flex items-center">
-                <div className="h-[20px] w-[50px] flex items-center justify-center">
-                  _______
-                </div>
-              </div>
-              <div className="absolute left-[120px] top-[5px] flex items-center">
-                <div className="h-[20px] w-[30px]">MOTIONS</div>
-              </div>
-            </div>
+      <div className="flex flex-col bg-[#171f44] w-full min-h-screen">
+
+      <div className="relative bg-black md:bg-white w-full flex flex-col items-center">
+        <div className="relative h-auto sm:h-120 bg-slate-900 px-12 pt-6 pb-3 mx-4 rounded-3xl my-3 text-white flex flex-col lg:flex-row items-start gap-x-6 justify-between lg:mx-20 lg:gap-x-16 lg:h-100">
+          <div className="flex flex-col items-start">
+            <span className="text-5xl mb-2 font-semibold text-orange-300">
+              ABOUT
+            </span>
+            <span className="text-2xl font-futura hover:underline md:text-3xl">
+              EXPRESSO
+            </span>
           </div>
-
-          <div className="relative mb-6 h-[10px] w-[13px] top-0 left-2">
-            <h2 className="text-4xl font-bold">Moderated</h2>
-          </div>
-
-          <div className="relative mb-6 h-[10px] w-[13px] top-0 left-2">
-            <h2 className="text-4xl font-bold">Caucus</h2>
-          </div>
-
-          <div
-            className="relative mt-8 h-[234px] w-[1300px] p-10 top-10"
-            style={{ backgroundColor: "#0F121C" }}
-          >
-            <p>NIT Patna MUN is a premier Model United Nations event organized by the Expresso Art and Literary Club, providing a platform for young minds to engage in diplomacy, leadership, and global citizenship. We're a team of dedicated individuals passionate about empowering young individuals to become global leaders and change-makers. Our event is a transformative experience that fosters intellectual growth, negotiation skills, and responsible global citizenship. We believe in the power of diplomacy and dialogue to shape a better future, and we're committed to delivering an exceptional experience that exceeds expectations. With a focus on leadership, global citizenship, and intellectual growth, we're dedicated to making a positive impact on the world, one delegate at a time. Through our efforts, we aim to create a ripple effect of kindness, compassion, and understanding that resonates globally. By bringing together young minds from diverse backgrounds, we strive to break down cultural barriers, promote mutual understanding, and inspire collective action for a brighter tomorrow.</p>
-          </div>
-        </section>
-
-        <section className="relative h-screen pt-0  pl-0">
-          <div className="absolute top-[70px] right-[200px] flex flex-col items-end space-y-4">
-            <div className="flex items-center mb-4">
-              <div className="flex-shrink-0">
-                <div className="text-7xl font-bold h-[45px] w-[45px] flex items-center justify-center text-gray-700">
-                  02
-                </div>
-              </div>
-
-              <div className="relative text-lg font-bold text-[#FBD784] ml-6 flex items-center space-x-8">
-                <div
-                  className="h-[20px] w-[50px] flex items-center justify-center"
-                  style={{
-                    marginLeft: "20px",
-                    position: "relative",
-                    top: "5px",
-                  }}
-                >
-                  _______
-                </div>
-                <div
-                  className="flex items-center space-x-4"
-                  style={{ position: "relative", top: "13px" }}
-                >
-                  <div
-                    className="h-[10px] w-[90px] flex items-center justify-center"
-                    style={{ position: "relative", left: "10px" }}
+          <div className="mt-4 sm:mt-0 text-left md:text-xl">
+            <p className="p-0 w-full">
+              {isMobile && !showFullDescription ? shortText : fullText}
+            </p>
+            {isMobile && (
+              <div className="text-center mt-4">
+                {showFullDescription ? (
+                  <span
+                    className="cursor-pointer text-xl text-blue-600 hover:underline"
+                    onClick={handleReadLess}
                   >
-                    RESOLUTION
-                  </div>
-                  <div
-                    className="h-[10px] w-[90px] flex items-center justify-center"
-                    style={{ position: "relative", left: "10px" }}
+                    Read Less
+                  </span>
+                ) : (
+                  <span
+                    className="cursor-pointer text-xl text-blue-600 hover:underline"
+                    onClick={handleReadMore}
                   >
-                    WRITING
-                  </div>
-                </div>
+                    Read More
+                  </span>
+                )}
               </div>
-            </div>
-            <div className="relative mb-6 h-[10px] w-[13px] top-[0] right-20">
-              <h2 className="text-4xl font-bold">Fixed</h2>
-            </div>
-            <div className="relative mb-6 h-[10px] w-[13px] top-[2px] right-20">
-              <h2 className="text-4xl font-bold">Topics</h2>
-            </div>
+            )}
           </div>
-        </section>
+        </div>
+      </div>
+
       </div>
     </>
   );
