@@ -15,7 +15,7 @@ function Secratriat() {
       padding: '20px' 
     }}>
       <div style={{ textAlign: 'center', marginBottom: '20px' }}>
-        <img src='/sec.png' alt="Logo" style={{ width: '1439px', height: '1281px' }} />
+        <img src='/sec.png' alt="Logo" style={{ width: '1510px', height: '1301px' }} />
       </div>
       <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap', gap: '20px', justifyContent: 'center' }}>
       {teamDetails.secretrians.members.map(member => (
