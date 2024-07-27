@@ -7,16 +7,20 @@ const Navbar = () => {
   const [isnav, setIsnav] = useState(false);
 
   return (
-    <div className="bg-[#000829] resize lg:min-h-28 w-screen max-w-screen font-extrabold justify-end"
-    style={{
-      backgroundImage: `url('navbar2.png')`,
-      backgroundRepeat: `no-repeat`,
-      backgroundPosition: `right`,
-    }}
+    <div
+      className="bg-[#000829] w-full font-extrabold min-h-32"
+      style={{
+        backgroundImage: `url('navbar.png')`,
+        backgroundRepeat: `no-repeat`,
+        backgroundPosition: `right`,
+        backgroundSize: 'cover',
+        margin: 0, // Ensure no extra margins
+        padding: 0, // Ensure no extra padding
+      }}
     >
-      <div className="flex justify-between items-center text-[#000829] p-4 mx-4 lg:p-0">
+      <div className="flex justify-between items-center text-[#000829] p-0 mx-auto max-w-screen-xl">
         <Link href="/">
-          <div className="mr-[100px] cursor-pointer">
+          <div className="cursor-pointer align-center pt-6 pl-8">
             <Image width={120} height={120} src="/logomun2.png" alt="logo" />
           </div>
         </Link>
@@ -71,7 +75,7 @@ const Navbar = () => {
       </div>
 
       {isnav && (
-        <div className="w-screen h-screen fixed top-0 left-0 bg-[#000829] bg-opacity-90 z-50 flex justify-center items-center lg:hidden">
+        <div className="fixed inset-0 bg-[#000829] bg-opacity-90 z-50 flex justify-center items-center lg:hidden">
           <button
             onClick={() => setIsnav(!isnav)}
             className="text-white focus:outline-none fixed top-10 right-10"

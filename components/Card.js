@@ -1,7 +1,5 @@
 import React from 'react';
-
 import { FaInstagram, FaLinkedin } from "react-icons/fa";
-import Image from 'next/image';
 
 const Card = ({ member }) => {
   if (!member) return null; 
@@ -19,12 +17,12 @@ const Card = ({ member }) => {
         </div>
       </div>
       <div className="bg-gray-400 w-[225.76px] h-[288.08px] rounded-[15.51px] absolute top-[10px] left-[100] flex justify-center items-center">
-  <img 
-    src={`/${member.image}`} 
-    alt={member.name}
-    // className="w-full h-full object-cover rounded-[15.51px]"
-  />
-</div>
+        <img 
+          src={`/${member.image}`} 
+          alt={member.name}
+          className="w-full h-full object-cover rounded-[15.51px]"
+        />
+      </div>
       <div className="absolute top-[300px] left-[80px] text-black text-[15px] font-bold">
         <div>{member.name}</div>
       </div>

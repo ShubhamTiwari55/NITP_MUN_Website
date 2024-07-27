@@ -27,7 +27,7 @@ export default function RootLayout({ children }) {
         {/* <LandingPgRB /> */}
         {/* <LandingPgS/> */}
         {/* <LandingPgF/> */}
-        <LandingPgH/>
+        {/* <LandingPgH/> */}
         <Footer />
       </body>
     </html>
