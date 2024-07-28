@@ -1,72 +1,106 @@
-"use client"
-import React from "react";
-import { useState , useEffect } from "react";
-function RuleBook() {
+"use client";
+import React, { useEffect, useState } from "react";
 
-  const [showFullDescription, setShowFullDescription] = useState(false);
+function HomePg() {
+  const [showFullDescriptionExpresso, setShowFullDescriptionExpresso] = useState(false);
+  const [showFullDescriptionNitPatna, setShowFullDescriptionNitPatna] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
-  const [parentHeight, setParentHeight] = useState(500);
 
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth < 500);
-      if (window.innerWidth >= 600 && window.innerWidth < 800) {
-        setParentHeight(780); // Adjust height for screens between 600px and 800px
-      } else {
-        setParentHeight(showFullDescription ? 700 : 380);
-      }
     };
 
     handleResize();
     window.addEventListener("resize", handleResize);
 
     return () => window.removeEventListener("resize", handleResize);
-  }, [showFullDescription]);
+  }, [showFullDescriptionExpresso, showFullDescriptionNitPatna]);
 
-  useEffect(() => {
-    setParentHeight(showFullDescription ? 300 : 280);
-  }, [showFullDescription]);
+  const handleReadMoreExpresso = () => setShowFullDescriptionExpresso(true);
+  const handleReadLessExpresso = () => setShowFullDescriptionExpresso(false);
 
-  const handleReadMore = () => setShowFullDescription(true);
-  const handleReadLess = () => setShowFullDescription(false);
+  const handleReadMoreNitPatna = () => setShowFullDescriptionNitPatna(true);
+  const handleReadLessNitPatna = () => setShowFullDescriptionNitPatna(false);
 
-  const fullText =
-    "Expresso is the club where literature and art collide, creating a vibrant community for passionate students. It's a dynamic hub designed to nurture and showcase your talents, whether in crafting words or painting visuals. Immerse yourself in poetry slams, art workshops, and diverse events that provide a platform to discover and showcase your creative flair. Connect with a supportive community of fellow students, writers, and artists, leaving an indelible mark in this enchanting space. From diverse opportunities to skill development workshops, Espresso Club is more than a club – it's a journey of creative discovery. Contribute to the college's cultural tapestry, organize events, participate in campus initiatives, and make a lasting impression. Ready to embark on this creative odyssey? Sign up, become a member, and let your unique talents complete our Espresso Club mosaic. Join us, and let your creativity brew in the extraordinary blend of inspiration!";
-  const shortText = fullText.split(" ").slice(0, 50).join(" ") + "...";
+  const fullTextExpresso =
+    `Welcome to Expresso - The Literary & Art Club NIT Patna! We are the vibrant community where creativity in literature and public speaking thrives. Whether you're into writing, debating, or any other form of expression, this is your place to explore and showcase your talents.
+Expresso is more than just a club; it's a journey of self-discovery and growth. Since our inception, we've provided a platform for students to nurture their literary and oratory skills. With numerous events, workshops, and competitions, we inspire and engage creative minds, helping them flourish in their craft.
+Over the years, Expresso has built a legacy of fostering literary and public speaking talents. Our members have won numerous events across various colleges, bringing accolades and recognition to NIT Patna. We take pride in our diverse and dynamic community, where every voice is heard, and every talent is celebrated.Get ready for an exciting event this September! We're bringing back NIT Patna MUN 2.0, one of our most eagerly anticipated events. This conference offers a platform for debate, diplomacy, and intellectual engagement. Join us for a thrilling experience and be part of this amazing adventure!`;
 
+  const shortTextExpresso = fullTextExpresso.split(" ").slice(0, 50).join(" ") + "...";
 
+  const fullTextNitPatna =
+    `NIT Patna, established in 1886, is one of the oldest engineering institutions in India. Located in Patna, Bihar, the institute is renowned for its engineering and technological education. It has consistently been a leader in academic excellence and research, providing high-quality education and fostering innovation.
+    The institute is committed to holistic development, with a focus on engineering, science, and technology. It offers a wide range of undergraduate, postgraduate, and doctoral programs. NIT Patna is known for its vibrant campus life, state-of-the-art infrastructure, and a strong emphasis on research and development.
+    With a rich history and a reputation for producing outstanding graduates, NIT Patna is a hub for intellectual and technical advancement. The institute continues to contribute significantly to the field of engineering and technology, nurturing future leaders and innovators.`;
+
+  const shortTextNitPatna = fullTextNitPatna.split(" ").slice(0, 50).join(" ") + "...";
 
   return (
     <>
-      <div className="flex flex-col bg-[#171f44] w-full min-h-screen">
-
-      <div className="relative bg-black md:bg-white w-full flex flex-col items-center">
-        <div className="relative h-auto sm:h-120 bg-slate-900 px-12 pt-6 pb-3 mx-4 rounded-3xl my-3 text-white flex flex-col lg:flex-row items-start gap-x-6 justify-between lg:mx-20 lg:gap-x-16 lg:h-100">
+      <div className="flex flex-col bg-[#000829] px-4 py-6">
+        {/* About NIT Patna Section */}
+        <div className="relative w-full max-w-screen-lg mx-auto text-white rounded-3xl p-6 mb-6"
+              style={{ backgroundImage: `url('/bg2.png')` }}
+        >
           <div className="flex flex-col items-start">
-            <span className="text-5xl mb-2 font-semibold text-orange-300">
-              ABOUT
-            </span>
-            <span className="text-2xl font-futura hover:underline md:text-3xl">
-              EXPRESSO
-            </span>
+            <span className="text-5xl mb-2 font-semibold text-[#FBD784]">ABOUT</span>
+            <span className="text-2xl font-futura underline md:text-3xl">NIT PATNA</span>
           </div>
-          <div className="mt-4 sm:mt-0 text-left md:text-xl">
-            <p className="p-0 w-full">
-              {isMobile && !showFullDescription ? shortText : fullText}
+          <div className="mt-4 text-left md:text-xl">
+            <p className="p-0 w-full"
+            
+            >
+              {isMobile && !showFullDescriptionNitPatna ? shortTextNitPatna : fullTextNitPatna}
             </p>
             {isMobile && (
               <div className="text-center mt-4">
-                {showFullDescription ? (
+                {showFullDescriptionNitPatna ? (
                   <span
                     className="cursor-pointer text-xl text-blue-600 hover:underline"
-                    onClick={handleReadLess}
+                    onClick={handleReadLessNitPatna}
                   >
                     Read Less
                   </span>
                 ) : (
                   <span
                     className="cursor-pointer text-xl text-blue-600 hover:underline"
-                    onClick={handleReadMore}
+                    onClick={handleReadMoreNitPatna}
+                  >
+                    Read More
+                  </span>
+                )}
+              </div>
+            )}
+          </div>
+        </div>
+
+        {/* About Expresso Section */}
+        <div className="relative w-full max-w-screen-lg mx-auto text-white rounded-3xl p-6 mb-6"
+              style={{ backgroundImage: `url('/bg2.png')` }}
+>
+          <div className="flex flex-col items-start">
+            <span className="text-5xl mb-2 font-semibold text-[#FBD784]">ABOUT</span>
+            <span className="text-2xl font-futura underline md:text-3xl">EXPRESSO</span>
+          </div>
+          <div className="mt-4 text-left md:text-xl">
+            <p className="p-0 w-full">
+              {isMobile && !showFullDescriptionExpresso ? shortTextExpresso : fullTextExpresso}
+            </p>
+            {isMobile && (
+              <div className="text-center mt-4">
+                {showFullDescriptionExpresso ? (
+                  <span
+                    className="cursor-pointer text-xl text-blue-600 hover:underline"
+                    onClick={handleReadLessExpresso}
+                  >
+                    Read Less
+                  </span>
+                ) : (
+                  <span
+                    className="cursor-pointer text-xl text-blue-600 hover:underline"
+                    onClick={handleReadMoreExpresso}
                   >
                     Read More
                   </span>
@@ -76,10 +110,8 @@ function RuleBook() {
           </div>
         </div>
       </div>
-
-      </div>
     </>
   );
 }
 
-export default RuleBook;
+export default HomePg;

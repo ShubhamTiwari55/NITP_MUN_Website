@@ -6,7 +6,12 @@ import LandingPgRB from "@/pages/Rulebook/LandingPgRB";
 import LandingPgS from "@/pages/Secretariat/LandingPgS"
 import LandingPgF from "@/pages/Faqs/LandingPgF"
 import LandingPgH from "@/pages/Home/LandingPgH"
-
+import HomePg from "@/pages/Home/HomePg"
+import Gallery from "@/pages/Gallery/Gallery";
+import Faqs from "@/pages/Faqs/Faqs";
+// import Committee from "@/pages/Committees/Committee";
+import Committee from "@/pages/Committees/Committee";
+import RuleBook from "@/pages/Rulebook/RuleBook";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -24,10 +29,15 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         <main>{children}</main>
+        <LandingPgH/>
         {/* <LandingPgRB /> */}
-        {/* <LandingPgS/> */}
-        {/* <LandingPgF/> */}
-        {/* <LandingPgH/> */}
+        <LandingPgS/>
+        <LandingPgF/>
+        <HomePg/>
+        <Committee/>
+        <Gallery/>  
+        <RuleBook/>
+        {/* <Faqs/> */}
         <Footer />
       </body>
     </html>

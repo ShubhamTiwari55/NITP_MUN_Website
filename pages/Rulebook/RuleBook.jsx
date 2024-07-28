@@ -1,10 +1,11 @@
+"use client"
 import React from 'react';
-import LandingPage from './LandingPgRB';
+// import LandingPage from './LandingPgRB';
 
 function RuleBook() {
   return (
     <>
-<LandingPage/>
+{/* <LandingPage/> */}
 <div className="bg-gray-900 text-white p-20">
  <section className="mb-10">
   <div className="flex items-center mb-4">
