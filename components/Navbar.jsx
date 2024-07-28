@@ -20,7 +20,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center text-[#000829] p-0 mx-auto max-w-screen-xl">
         <Link href="/">
-          <div className="cursor-pointer align-center pt-6 pl-8">
+          <div className="cursor-pointer align-center">
             <Image width={120} height={120} src="/logomun2.png" alt="logo" />
           </div>
         </Link>
@@ -55,14 +55,15 @@ const Navbar = () => {
           </button>
         </div>
         <div className="hidden lg:flex lg:items-center lg:w-full lg:justify-end">
-          <ul className="flex space-x-6">
+          <ul className="flex space-x-4">
             {[
               { href: "/", text: "HOME" },
-              { href: "/Event", text: "COMMITTEES" },
-              { href: "/Art", text: "SECRETARIAT" },
-              { href: "/Literature", text: "GALLERY" },
-              { href: "/Team", text: "RULEBOOK" },
-              { href: "/Alumni", text: "FAQS" },
+              { href: "/Committees", text: "COMMITTEES" },
+              { href: "/Secretariat", text: "SECRETARIAT" },
+              { href: "/Gallery", text: "GALLERY" },
+              { href: "/Rulebook", text: "RULEBOOK" },
+              { href: "/Faqs", text: "FAQS" },
+              { href: "/Sponsors", text: "SPONSORS" },
             ].map((item, index) => (
               <li key={index}>
                 <Link href={item.href} className="p-2 font-['Coluna'] font-semibold rounded hover:rounded-full hover:text-white hover:bg-[#000829]">
@@ -93,13 +94,13 @@ const Navbar = () => {
           </button>
           <ul className="space-y-6">
             {[
-              { href: "/", text: "Home" },
-              { href: "/Event", text: "Event" },
-              { href: "/Art", text: "Art" },
-              { href: "/Literature", text: "Literature" },
-              { href: "/Team", text: "Team" },
-              { href: "/Alumni", text: "Alumni" },
-              { href: "/Contact", text: "Join Us" },
+               { href: "/", text: "HOME" },
+               { href: "/Committee", text: "COMMITTEES" },
+               { href: "/Secretariat", text: "SECRETARIAT" },
+               { href: "/Gallery", text: "GALLERY" },
+               { href: "/Rulebook", text: "RULEBOOK" },
+               { href: "/Faqs", text: "FAQS" },
+               { href: "/Sponsors", text: "SPONSORS" },
             ].map((item, index) => (
               <li key={index} className="group relative">
                 <Link href={item.href} onClick={() => setIsnav(false)}>
