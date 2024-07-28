@@ -13,6 +13,9 @@ module.exports = {
         'gradient-to-t': 'linear-gradient(to top, #000829 , #38387C)',
 
       },
+      colors:{
+        'custom-underline': '#white',
+      },
     },
   },
   plugins: [],

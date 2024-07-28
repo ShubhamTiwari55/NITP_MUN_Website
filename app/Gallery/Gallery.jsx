@@ -4,7 +4,7 @@ import Image from "next/image";
 function Gallery() {
   return (
     <>
-      <div className="w-full h-fit bg-[url('https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682809/Events/MUN/DSC_0418_lclzcs.jpg')] px-2 py-2 bg-[#111] flex flex-col gap-2 sm:gap-3">
+      <div className="w-full h-fit bg-[url('https://res.cloudinary.com/dnbutfdy7/image/upload/v1719682809/Events/MUN/DSC_0418_lclzcs.jpg')] px-2 py-2 bg-[#FAB952] flex flex-col gap-2 sm:gap-3">
         <div className="w-full flex flex-col sm:flex-row gap-2 sm:gap-3">
           <div className="flex w-full sm:w-[33%] flex-row sm:flex-col gap-2 sm:gap-3">
             <div className="w-[55vw] sm:w-full h-48 sm:h-80 rounded-lg overflow-hidden">

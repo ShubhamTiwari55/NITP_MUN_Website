@@ -1,11 +1,8 @@
+// app/layout.js
 import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import LandingPgRB from "@/pages/Rulebook/LandingPgRB";
-import LandingPgS from "@/pages/Secretariat/LandingPgS"
-import LandingPgF from "@/pages/Faqs/LandingPgF"
-import LandingPgH from "@/pages/Home/LandingPgH"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,13 +18,9 @@ export default function RootLayout({ children }) {
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
       </head>
-      <body>
+      <body className={inter.className}>
         <Navbar />
         <main>{children}</main>
-        {/* <LandingPgRB /> */}
-        {/* <LandingPgS/> */}
-        {/* <LandingPgF/> */}
-        {/* <LandingPgH/> */}
         <Footer />
       </body>
     </html>
