@@ -30,14 +30,14 @@ export default function RootLayout({ children }) {
         <Navbar />
         <main>{children}</main>
         <LandingPgH/>
-        {/* <LandingPgRB /> */}
+        <LandingPgRB />
         <LandingPgS/>
         <LandingPgF/>
         <HomePg/>
         <Committee/>
         <Gallery/>  
-        <RuleBook/>
-        {/* <Faqs/> */}
+        {/* <RuleBook/> */}
+        <Faqs/>
         <Footer />
       </body>
     </html>
