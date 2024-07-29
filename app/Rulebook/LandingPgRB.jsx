@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 function LandingPage() {
   return (
-    <div className="relative w-full h-[85vh] bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
+    <div className="relative w-full h-[90vh] bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
       <div className="absolute top-0 left-0 w-full h-full flex flex-col md:flex-row items-center justify-evenly z-10">
         {/* Main logo */}
         <Image width={300} height={300} src="/Logo-mun-gold.png" alt="logo" className=" flex justify-center mb-4" />

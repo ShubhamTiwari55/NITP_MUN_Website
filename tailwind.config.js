@@ -12,7 +12,7 @@ module.exports = {
         colona: ['Colona', 'sans-serif'],
       },
       backgroundImage:{
-        'gradient-to-t': 'linear-gradient(to top, #000829 , #38387C)',
+        'gradient-to-t': 'linear-gradient(to top, #000829 , #011564)',
 
       },
       colors:{

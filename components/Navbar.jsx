@@ -20,14 +20,14 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center text-[#000829] p-0 mx-auto max-w-screen-xl">
         <Link href="/">
-          <div className="cursor-pointer align-center">
+          <div className="cursor-pointer align-center ml-8">
             <Image width={120} height={120} src="/logomun2.png" alt="logo" />
           </div>
         </Link>
         <div className="lg:hidden">
           <button
             onClick={() => setIsnav(!isnav)}
-            className="text-white focus:outline-none focus:text-white"
+            className="text-[#000829] focus:outline-none focus:text-white mr-8 sm:mr-16"
           >
             {!isnav ? (
               <svg
