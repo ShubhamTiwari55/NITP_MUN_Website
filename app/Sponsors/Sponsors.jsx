@@ -36,7 +36,7 @@ const Sponsors = () => {
             </div> */}
             
            
-            <div className="bg-[black] p-4 relative w-[calc(100vw-70px)] h-[200px] md:w-[calc(min(1160px, (100vw - (2 * (calc(100vw-70px) + 20px)))))] md:h-[400px] flex items-center justify-center max-w-[1160px]">
+            <div className="bg-[black] p-4 relative w-[calc(100vw-70px)] h-[200px] md:w-[calc(min(1160px, (100vw - (2 * (calc(100vw-70px) + 20px)))))] md:h-[400px] flex items-center justify-center max-w-[1160px] opacity-0">
       <div className="relative w-full h-full">
         <Image 
           src="/" 
@@ -73,11 +73,11 @@ const Sponsors = () => {
     </div>
               
              
-    <div className="bg-black p-4 relative w-[calc(100vw-70px)] h-[200px] md:w-[calc(50vw-100px)] md:h-[400px] flex items-center justify-center ">
+    <div className="bg-black p-4 relative w-[calc(100vw-70px)] h-[200px] md:w-[calc(50vw-100px)] md:h-[400px] flex items-center justify-center opacity-0 ">
       <div className="relative w-full h-full">
         <Image 
           src="" 
-          alt="SMIT" 
+          alt="" 
           layout="fill" 
           objectFit="contain" 
         />
@@ -171,8 +171,8 @@ const Sponsors = () => {
     <div className="bg-black p-4 relative w-[calc(100vw-70px)] h-[200px] md:w-[calc(50vw-100px)] md:h-[400px] flex items-center justify-center ">
       <div className="relative w-full h-full">
         <Image 
-          src="" 
-          alt="SMIT" 
+          src="/indore.jpg" 
+          alt="IIT INDORE" 
           layout="fill" 
           objectFit="contain" 
         />
