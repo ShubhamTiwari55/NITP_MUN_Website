@@ -6,7 +6,13 @@ function RuleBook() {
   return (
     <>
 {/* <LandingPage/> */}
-<div className="bg-gray-900 text-white p-20">
+<div className="bg-gray-900 text-white p-20 "
+style={{ backgroundImage: `url('/bg3.jpg')`,
+  backgroundRepeat: `no-repeat`,
+        backgroundSize: 'cover',
+ }}
+
+>
  <section className="mb-10">
   <div className="flex items-center mb-4">
     <div className="">
@@ -32,10 +38,6 @@ function RuleBook() {
     <h2 className="text-4xl font-bold">ATTIRE</h2>
   </div>
 
-  {/* <div className="relative mb-6 h-[10px] w-[13px] top-0 left-2">
-    <h2 className="text-4xl font-bold">Caucus</h2>
-  </div> */}
-  
   
   <div className="relative mt-8 max-h-[40vh] w-[1300px] p-10 top-[90px] overflow-y-scroll" 
   style={{ backgroundColor: '#0F121C' }}>
