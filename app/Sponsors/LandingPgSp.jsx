@@ -25,6 +25,11 @@ function LandingPage() {
           <h1 className="text-[10vw] md:text-[8vw] font-extrabold sm:mt-[-5%] md:mt-[-10%] lg:mt-[-12%] text-[#FBD784]">OUR PARTNERS</h1>
 
           <h1 className="text-[4vw] md:text-[2vw] font-extrabold align-text-bottom text-[#FBD784]">September 13 - September 15, 2024</h1>
+
+        <div>
+        <button className=" absolute mt-12 bg-[#FBD784] text-[#000829] px-8 py-4  font-bold rounded animate-pulse hover:text-[white] hover:border-4 hover:border-[#FBD784] hover:bg-[#000829] ">
+        JOIN US          </button>
+        </div>
         </div>
       </div>
     </div>
