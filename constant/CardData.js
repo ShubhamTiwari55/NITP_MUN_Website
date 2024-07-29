@@ -49,6 +49,14 @@ const cardData = {
           instagram: 'https://www.instagram.com/samwilson',
           image: 'sam_wilson.jpg'
         },
+        {
+          id: 7,
+          name: 'Sam8',
+          designation: 'Secretary',
+          linkedin: 'https://www.linkedin.com/in/samwilson',
+          instagram: 'https://www.instagram.com/samwilson',
+          image: 'sam_wilson.jpg'
+        },
         // Add more members as needed
       ]
     }
