@@ -5,8 +5,8 @@ const Card = ({ member }) => {
   if (!member) return null; 
 
   return (
-    <div className="relative m-5 w-[325px] h-[500.68px]">
-      <div className="bg-[#FEB952] w-[215.16px] h-[400.06px] rounded-[14.74px] absolute top-[70px] left-[70px] flex flex-col items-end p-2.5">
+    <div className="relative m-5 w-[325px] h-[400.68px]">
+      <div className="bg-[#daa04a] w-[215.16px] h-[300px] rounded-[14.74px] absolute top-[70px] left-[70px] flex flex-col items-end p-2.5">
         <div className="flex flex-col gap-5 mt-[110px]">
           <a href={member.linkedin} target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
             <FaLinkedin size={36} color="#000" />
@@ -29,7 +29,6 @@ const Card = ({ member }) => {
       <div className="absolute top-[330px] left-[80px] text-black text-[10px] font-normal">
         <div>{member.designation}</div>
       </div>
-      <div className="bg-white w-[190.67px] h-[70.57px] rounded-[10.08px] absolute top-[360px] left-[80px] -mr-1.5"></div>
     </div>
   );
 };
