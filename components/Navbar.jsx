@@ -20,7 +20,7 @@ const Navbar = () => {
     >
       <div className="flex justify-between items-center text-[#000829] p-0 mx-auto max-w-screen-xl">
         <Link href="/">
-          <div className="cursor-pointer align-center ml-8">
+          <div className="cursor-pointer align-center ml-8 text-[#000829] lg:text-white">
             <Image width={120} height={120} src="/logomun2.png" alt="logo" />
           </div>
         </Link>

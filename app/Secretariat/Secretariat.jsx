@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from 'react';
 import dynamic from 'next/dynamic';
-import Card from '@/components/Card';
+import TeamCard from '@/components/Card';
 import cardData from '@/constant/CardData';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -17,14 +17,23 @@ const Secretariat = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 1,
+    slidesToShow: 5,
+    slidesToScroll: 3,
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1300,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
+          slidesToShow: 4,
+          slidesToScroll: 2,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 800,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 2,
           infinite: true,
           dots: true,
         },
@@ -32,8 +41,8 @@ const Secretariat = () => {
       {
         breakpoint: 600,
         settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
+          slidesToShow: 2,
+          slidesToScroll: 2,
         },
       },
     ],
@@ -42,8 +51,8 @@ const Secretariat = () => {
   const renderCarousel = (members) => (
     <Slider {...settings}>
       {members.map((member) => (
-        <div key={member.id} className="px-4 mb-8">
-          <Card member={member} />
+        <div key={member.id} className=" gap-x-4 px-4 mb-8">
+          <TeamCard member={member} />
         </div>
       ))}
     </Slider>
@@ -51,7 +60,7 @@ const Secretariat = () => {
 
   return (
     <div
-      className="container mx-auto px-10"
+      className="container mx-auto px-10 lg:min-h-fit"
       style={{
         backgroundImage: 'url(Bg.jpg)',
         backgroundSize: 'cover',
@@ -64,59 +73,59 @@ const Secretariat = () => {
         onSelect={(index) => setSelectedTab(index)}
         className="text-center"
       >
-        <TabList className="flex flex-wrap justify-center mb-4">
+        <TabList className="flex flex-wrap justify-center mb-4 cursor-pointer">
           <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
-              selectedTab === 0 ? 'bg-yellow-700 text-black shadow-lg rounded-full' : 'bg-transparent text-yellow-500'
+              selectedTab === 0 ? 'bg-yellow-700 text-black shadow-lg rounded-full' : 'bg-transparent text-[#FBD784]'
             } transition-all duration-300 ease-in-out `}
           >
-            Leads
+            Secretariat
           </Tab>
           <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
-              selectedTab === 1 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-yellow-500'
+              selectedTab === 1 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
             } transition-all duration-300 ease-in-out`}
           >
             Technical
           </Tab>
           <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
-              selectedTab === 2 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-yellow-500'
+              selectedTab === 2 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
             } transition-all duration-300 ease-in-out`}
           >
             Sponsorship
           </Tab>
           <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
-              selectedTab === 3 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-yellow-500'
-            } transition-all duration-300 ease-in-out`}
-          >
-            Decoration
-          </Tab>
-          <Tab
-            className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
-              selectedTab === 4 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-yellow-500'
-            } transition-all duration-300 ease-in-out`}
-          >
-            Design
-          </Tab>
-          <Tab
-            className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
-              selectedTab === 5 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-yellow-500'
+              selectedTab === 3 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
             } transition-all duration-300 ease-in-out`}
           >
             Content
           </Tab>
           <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
-              selectedTab === 6 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-yellow-500'
+              selectedTab === 4 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
+            } transition-all duration-300 ease-in-out`}
+          >
+            Design
+          </Tab>
+          <Tab
+            className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
+              selectedTab === 5 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
+            } transition-all duration-300 ease-in-out`}
+          >
+            Decoration
+          </Tab>
+          <Tab
+            className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
+              selectedTab === 6 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
             } transition-all duration-300 ease-in-out`}
           >
             Media
           </Tab>
           <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
-              selectedTab === 7 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-yellow-500'
+              selectedTab === 7 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
             } transition-all duration-300 ease-in-out`}
           >
             Hospitality
@@ -125,35 +134,35 @@ const Secretariat = () => {
         </TabList>
 
         <TabPanel>
-          <h2 className="text-2xl mb-4 text-center font-bold text-white">leads</h2>
-          {renderCarousel(cardData.leads.members)}
+          <h2 className="text-2xl mb-4 text-center font-bold text-white"> The Secretariat</h2>
+          {renderCarousel(cardData.Secretariat.members)}
         </TabPanel>
         <TabPanel>
-          <h2 className="text-2xl mb-4 text-center font-bold text-white">Team Secretrians2</h2>
+          <h2 className="text-2xl mb-4 text-center font-bold text-white">Technical Team</h2>
           {renderCarousel(cardData.Technical.members)}
         </TabPanel>
         <TabPanel>
-          <h2 className="text-2xl mb-4 text-center font-bold text-white">Team Secretrians2</h2>
+          <h2 className="text-2xl mb-4 text-center font-bold text-white">Sponsorship Team </h2>
           {renderCarousel(cardData.Sponsorship.members)}
         </TabPanel>
         <TabPanel>
-          <h2 className="text-2xl mb-4 text-center font-bold text-white">Team Secretrians2</h2>
+          <h2 className="text-2xl mb-4 text-center font-bold text-white">Design Team </h2>
           {renderCarousel(cardData.Design.members)}
         </TabPanel>
         <TabPanel>
-          <h2 className="text-2xl mb-4 text-center font-bold text-white">Team Secretrians2</h2>
+          <h2 className="text-2xl mb-4 text-center font-bold text-white">Decoration Team </h2>
           {renderCarousel(cardData.Decoration.members)}
         </TabPanel>
         <TabPanel>
-          <h2 className="text-2xl mb-4 text-center font-bold text-white">Team Secretrians2</h2>
+          <h2 className="text-2xl mb-4 text-center font-bold text-white">Content Team </h2>
           {renderCarousel(cardData.Content.members)}
         </TabPanel>
         <TabPanel>
-          <h2 className="text-2xl mb-4 text-center font-bold text-white">Team Secretrians2</h2>
+          <h2 className="text-2xl mb-4 text-center font-bold text-white">Media Team </h2>
           {renderCarousel(cardData.Media.members)}
         </TabPanel>
         <TabPanel>
-          <h2 className="text-2xl mb-4 text-center font-bold text-white">Team Secretrians2</h2>
+          <h2 className="text-2xl mb-4 text-center font-bold text-white">Hospitality Team </h2>
           {renderCarousel(cardData.Hospitality.members)}
         </TabPanel>
         {/* Add more TabPanel components as needed */}

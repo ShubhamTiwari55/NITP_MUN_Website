@@ -1,5 +1,5 @@
 const cardData = {
-  leads: {
+  Secretariat: {
     members: [
       {
         id: 1,
