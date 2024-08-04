@@ -21,7 +21,7 @@ const Secretariat = () => {
     slidesToScroll: 3,
     responsive: [
       {
-        breakpoint: 1300,
+        breakpoint: 1550,
         settings: {
           slidesToShow: 4,
           slidesToScroll: 2,
@@ -30,7 +30,7 @@ const Secretariat = () => {
         },
       },
       {
-        breakpoint: 800,
+        breakpoint: 1280,
         settings: {
           slidesToShow: 3,
           slidesToScroll: 2,
