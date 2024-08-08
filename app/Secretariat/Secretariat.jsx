@@ -83,49 +83,56 @@ const Secretariat = () => {
           </Tab>
           <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
-              selectedTab === 1 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
-            } transition-all duration-300 ease-in-out`}
+              selectedTab === 1 ? 'bg-yellow-700 text-black shadow-lg rounded-full' : 'bg-transparent text-[#FBD784]'
+            } transition-all duration-300 ease-in-out `}
           >
-            Technical
+            Seniors
           </Tab>
           <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
               selectedTab === 2 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
             } transition-all duration-300 ease-in-out`}
           >
-            Sponsorship
+            Technical
           </Tab>
           <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
               selectedTab === 3 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
             } transition-all duration-300 ease-in-out`}
           >
-            Content
+            Sponsorship
           </Tab>
           <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
               selectedTab === 4 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
             } transition-all duration-300 ease-in-out`}
           >
-            Design
+            Content
           </Tab>
           <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
               selectedTab === 5 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
             } transition-all duration-300 ease-in-out`}
           >
-            Decoration
+            Design
           </Tab>
           <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
               selectedTab === 6 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
             } transition-all duration-300 ease-in-out`}
           >
-            Media
+            Decoration
           </Tab>
           <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
               selectedTab === 7 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
+            } transition-all duration-300 ease-in-out`}
+          >
+            Media
+          </Tab>
+          <Tab
+            className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
+              selectedTab === 8 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
             } transition-all duration-300 ease-in-out`}
           >
             Hospitality
