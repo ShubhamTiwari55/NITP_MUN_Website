@@ -47,8 +47,8 @@ const TeamCard = ({ member }) => {
       
       >
         <div className="flex flex-row items-center ">
-          <div className="w-24 lg:w-48 rounded-br-lg bg-[rgb(138,138,138)] h-28 lg:h-52 z-8">
-            <img src={member.image} alt="profile-picture" />{" "}
+          <div className="w-24 lg:w-48 rounded-br-lg bg-[rgb(138,138,138)] h-28 lg:h-52 overflow-hidden z-8">
+            <img className="w-full h-full" src={member.image} alt="profile-picture" />{" "}
           </div>
           <div className="flex flex-col items-center justify-between gap-y-4 mx-auto">
             <a

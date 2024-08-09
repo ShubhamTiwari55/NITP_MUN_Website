@@ -130,19 +130,23 @@ const Secretariat = () => {
           >
             Media
           </Tab>
-          <Tab
+          {/* <Tab
             className={`px-4 py-2 mx-1 md:mx-2 text-base md:text-lg font-semibold rounded-full ${
               selectedTab === 8 ? 'bg-transparent text-white shadow-lg' : 'bg-transparent text-[#FBD784]'
             } transition-all duration-300 ease-in-out`}
           >
             Hospitality
-          </Tab>
+          </Tab> */}
           {/* Add more Tab components as needed */}
         </TabList>
 
         <TabPanel>
           <h2 className="text-2xl mb-4 text-center font-bold text-white"> The Secretariat</h2>
           {renderCarousel(cardData.Secretariat.members)}
+        </TabPanel>
+        <TabPanel>
+          <h2 className="text-2xl mb-4 text-center font-bold text-white">Seniors</h2>
+          {renderCarousel(cardData.Seniors.members)}
         </TabPanel>
         <TabPanel>
           <h2 className="text-2xl mb-4 text-center font-bold text-white">Technical Team</h2>
@@ -153,6 +157,10 @@ const Secretariat = () => {
           {renderCarousel(cardData.Sponsorship.members)}
         </TabPanel>
         <TabPanel>
+          <h2 className="text-2xl mb-4 text-center font-bold text-white">Content Team </h2>
+          {renderCarousel(cardData.Content.members)}
+        </TabPanel>
+        <TabPanel>
           <h2 className="text-2xl mb-4 text-center font-bold text-white">Design Team </h2>
           {renderCarousel(cardData.Design.members)}
         </TabPanel>
@@ -161,17 +169,13 @@ const Secretariat = () => {
           {renderCarousel(cardData.Decoration.members)}
         </TabPanel>
         <TabPanel>
-          <h2 className="text-2xl mb-4 text-center font-bold text-white">Content Team </h2>
-          {renderCarousel(cardData.Content.members)}
-        </TabPanel>
-        <TabPanel>
           <h2 className="text-2xl mb-4 text-center font-bold text-white">Media Team </h2>
           {renderCarousel(cardData.Media.members)}
         </TabPanel>
-        <TabPanel>
+        {/* <TabPanel>
           <h2 className="text-2xl mb-4 text-center font-bold text-white">Hospitality Team </h2>
           {renderCarousel(cardData.Hospitality.members)}
-        </TabPanel>
+        </TabPanel> */}
         {/* Add more TabPanel components as needed */}
       </Tabs>
     </div>
