@@ -15,7 +15,7 @@ function Faqs() {
                 backgroundRepeat: `no-repeat`,
                 backgroundSize: 'cover',
             }}>
-            <div className="grid grid-cols-2 gap-4 m-12 max-w-[60%]" >
+            <div className="font-montserrat grid grid-cols-2 gap-4 m-12 max-w-[60%]" >
                 {faqs.map((faq, index) => (
                     <div
                         key={index}

@@ -45,7 +45,7 @@ Over the years, Expresso has built a legacy of fostering literary and public spe
         backgroundSize: 'cover',
     }}>
         {/* About NIT Patna Section */}
-        <div className="relative w-full max-w-screen-lg mx-auto text-white rounded-3xl p-6 mb-6"
+        <div className="relative w-full max-w-screen-lg mx-auto font-montserrat text-white rounded-3xl p-6 mb-6"
               style={{ backgroundImage: `url('/bg2.png')` }}
         >
           <div className="flex flex-col items-start">
@@ -81,7 +81,7 @@ Over the years, Expresso has built a legacy of fostering literary and public spe
         </div>
 
         {/* About Expresso Section */}
-        <div className="relative w-full max-w-screen-lg mx-auto text-white rounded-3xl p-6 mb-6"
+        <div className=" relative w-full font-montserrat max-w-screen-lg mx-auto text-white rounded-3xl p-6 mb-6"
               style={{ backgroundImage: `url('/bg2.png')` }}
 >
           <div className="flex flex-col items-start">

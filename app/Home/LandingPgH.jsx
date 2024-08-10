@@ -8,7 +8,7 @@ function LandingPage() {
 
   return (
     <div
-      className="relative w-full h-[85vh] bg-cover bg-center"
+      className="font-montserrat relative w-full h-[85vh] bg-cover bg-center"
       style={{ backgroundImage: `url('/bg2.png')` }}
     >
       <div className="absolute left-0 w-full mx-auto h-full flex flex-col md:flex-row items-center justify-evenly z-10">
