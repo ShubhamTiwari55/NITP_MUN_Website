@@ -224,24 +224,24 @@ const cardData = {
     members: [
       {
         id: 1,
-        name: 'Aman',
-        designation: 'Member',
+        name: 'Aman Gupta',
+        designation: 'Advisory',
         linkedin: 'https://www.linkedin.com/in/aman-gupta-3726521b4',
         instagram: 'https://www.instagram.com/itz_aman506',
         image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719685003/profile%20pictures/AMAN%20GUPTA.jpg',
       },
       {
         id: 2,
-        name: "Alankrita",
-        designation: "Member",
+        name: "Alankrita Singh",
+        designation: "Advisory",
         linkedin: "https://www.linkedin.com/in/alankrita-singh-2a13b6260",
         instagram: "https://www.instagram.com/alankrita_singh0520",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679914/profile%20pictures/ALANKRITA%20SINGH.jpg",
       },
       {
         id: 3,
-        name: "Pawni",
-        designation: "Member",
+        name: "Pawni Chauhan",
+        designation: "Advisory",
         linkedin: "https://linkedin.com/in/pawni-chauhan-95b181249",
         instagram: "https://www.instagram.com/pawnichauhan7",
         image:
@@ -250,7 +250,7 @@ const cardData = {
       {
         id: 4,
         name: "Harshali",
-        designation: "Member",
+        designation: "Advisory",
         linkedin: "https://www.linkedin.com/in/harshali-59564b228",
         instagram: "https://www.instagram.com/",
         image:
@@ -258,8 +258,8 @@ const cardData = {
       },
       {
         id: 5,
-        name: "Harsh",
-        designation: "Member",
+        name: "Harsh Vardhan",
+        designation: "Advisory",
         linkedin: "https://www.linkedin.com/in/harsh-vardhan-4354b1237/",
         instagram: "https://www.instagram.com/ig_harsh.vardhan",
         image:
@@ -267,8 +267,8 @@ const cardData = {
       },
       {
         id: 6,
-        name: "Shalvee",
-        designation: "Member",
+        name: "Shalvee Kumari",
+        designation: "Advisory",
         linkedin: "https://www.linkedin.com/in/shalvee0920",
         instagram: "https://www.instagram.com/shalvee_20",
         image:
@@ -277,7 +277,7 @@ const cardData = {
       {
         id: 7,
         name: "Shivani",
-        designation: "Member",
+        designation: "Advisory",
         linkedin: "https://www.linkedin.com/in/shivani-raj-59b798257",
         instagram: "https://www.instagram.com/Shivaniraj4683",
         image:
@@ -285,109 +285,30 @@ const cardData = {
       },
       {
         id: 8,
-        name: "Rohan",
-        designation: "Member",
+        name: "Rohan Shetty",
+        designation: "Advisory",
         linkedin: "https://www.linkedin.com/in/rohan1704",
         instagram: "https://www.instagram.com/shetty._.rohan",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679712/profile%20pictures/Rohan%20Shetty.jpg",
       },
       {
         id: 9,
-        name: "Arun",
-        designation: "Member",
+        name: "Arun Singh",
+        designation: "Advisory",
         linkedin: "https://www.linkedin.com/in/arun-singh-1a0b25225",
         instagram: "https://www.instagram.com/arunsingh_.08/",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680095/profile%20pictures/ARUN%20SINGH.png",
       },
       {
         id: 10,
-        name: "Aishwarya",
-        designation: "Member",
+        name: "Aishwarya Pandit",
+        designation: "Advisory",
         linkedin: "https://www.linkedin.com/in/aishwarya-pandit-176567234",
         instagram: "https://www.instagram.com/yours.aishwarya_",
         image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680116/profile%20pictures/AISHSWARYA%20PANDIT.jpg",
 
       },
-      {
-        id: 11,
-        name: 'Ronak',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/ronak-dass-682b56270/',
-        instagram: 'https://www.instagram.com/mrronak_d/#',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719727411/profile%20pictures/Ronak_Das_bsj0fx.jpg',
-      },
-      {
-        id: 12,
-        name: 'Jeevan',
-        designation: 'Member',
-        linkedin: '',
-        instagram: 'https://www.instagram.com/zeevan0863',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680110/profile%20pictures/Pamidipati%20Jeevan.jpg',
-      },
-      {
-        id: 13,
-        name: 'Nicky',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/nicky-kumari-7a57312b6',
-        instagram: '',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679600/profile%20pictures/NICKY%20KUMARI.jpg',
-      },
-      {
-        id: 14,
-        name: 'Kiran',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/kiran7saini9',
-        instagram: '',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679800/profile%20pictures/KIRAN%20SAINI.jpg',
-      },
-      {
-        id: 15,
-        name: 'Kushagra',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/kushagra-singh-888996258',
-        instagram: 'https://www.instagram.com/the_kushagra_singhh',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719727652/profile%20pictures/Kushagra_k1j0dw.jpg',
-      },
-      {
-        id: 16,
-        name: 'Aditi',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/aditi-jayesh-rao-a506a818b',
-        instagram: 'https://www.instagram.com/_nabii1.14_',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719727484/profile%20pictures/Aditi_Jayesh_Rao_mcchf4.png',
-      },
-      {
-        id: 17,
-        name: 'Rajnandini',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/rajnandini-roy-031a61261',
-        instagram: '',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679711/profile%20pictures/rajnandini%20roy.jpg',
-      },
-      {
-        id: 18,
-        name: 'Ritika',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/ritika-kumari-bb4705258',
-        instagram: 'https://www.instagram.com/ritikakumari_chaurasia1234',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680103/profile%20pictures/RITIKA%20KUMARI.jpg',
-      },
-      {
-        id: 19,
-        name: 'Aishwarya',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/aishwarya-adak-573605237',
-        instagram: 'https://www.instagram.com/parlegtoyourchai',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679908/profile%20pictures/AISHWARYA%20ADAK.jpg',
-      },
-      {
-        id: 20,
-        name: 'Dristi',
-        designation: 'Member',
-        linkedin: '',
-        instagram: 'https://www.instagram.com/drishtiupadhyay',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679800/profile%20pictures/DRISTI%20UPADHYAY.jpg',
-      },
+      
     ],
   },
   Technical: {
@@ -422,7 +343,7 @@ const cardData = {
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/rupak-parashar-355053317',
         instagram: 'https://www.instagram.com/rajrupakparashar.47',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680112/profile%20pictures/rupak%20parashar.jpg',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723297321/profile%20pictures/Rupak%20Parashar1.jpg',
       },
       {
         id: 5,
@@ -430,7 +351,7 @@ const cardData = {
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/anurag-kumar-14ba2828b',
         instagram: 'https://www.instagram.com/tiwary_anuragg',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680113/profile%20pictures/ANURAG%20KUMAR.jpg',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723297312/profile%20pictures/Anurag%20Tiwari.jpg',
       },
       {
         id: 6,
@@ -503,11 +424,11 @@ const cardData = {
       },
       {
         id: 8,
-        name: 'Rupaka',
+        name: 'Rupak',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/rupak-parashar-355053317/',
         instagram: 'https://www.instagram.com/rajrupakparashar.47/',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723175977/profile%20pictures/Rupak%20Parashar%20Profile.jpg',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723297321/profile%20pictures/Rupak%20Parashar1.jpg',
       },
       {
         id: 9,
@@ -515,7 +436,7 @@ const cardData = {
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/anurag-kumar-14ba2828b/',
         instagram: 'https://www.instagram.com/tiwary_anuragg/',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680113/profile%20pictures/ANURAG%20KUMAR.jpg',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723297312/profile%20pictures/Anurag%20Tiwari.jpg',
       },
       {
         id: 10,
@@ -590,72 +511,19 @@ const cardData = {
   Design: {
     members: [
       
+  
       {
         id: 1,
-        name: 'Rai',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/chirag-kumar-rai-bbb009271',
-        instagram: 'https://www.instagram.com/chirag.rai31',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719725607/profile%20pictures/Rai_Chirag_Kumar_jucwst.jpg',
-      },
-      {
-        id: 2,
-        name: 'Dipesh',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/dipesh-singh-0225891ba',
-        instagram: 'https://www.instagram.com/di.pesh279',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719725403/profile%20pictures/Dipesh_Kumar_adhcjo.jpg',
-      },
-      {
-        id: 3,
-        name: 'Utsav',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/utsav-thakur-960760294',
-        instagram: 'https://www.instagram.com/thakur_utsav_',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723304102/profile%20pictures/UTSAV_THAKUR_dysodt.jpg',
-      },
-      {
-        id: 4,
-        name: 'Neeraj',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/neeraj-kumar-96657330a/',
-        instagram: 'https://www.instagram.com/neerajk1617',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723304097/profile%20pictures/NEERAJ_KUMAR_cmesya.jpg',
-      },
-      {
-        id: 5,
-        name: 'Ronak',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/ronak-dass-682b56270/',
-        instagram: 'https://www.instagram.com/mrronak_d/#',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719727411/profile%20pictures/Ronak_Das_bsj0fx.jpg',
-      },
-      {
-        id: 6,
-        name: 'Supriya',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/supriya-kumari-1021a7258',
-        instagram: 'https://www.instagram.com/supriya_sharma_568',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680132/profile%20pictures/SUPRIYA%20KUMARI.jpg',
-      },
-      {
-        id: 7,
+
         name: 'Nicky',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/nicky-kumari-7a57312b6',
         instagram: 'https://www.instagram.com/nickyk2004?igsh=Z2tyaXhxNTkzeHE2',
         image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679600/profile%20pictures/NICKY%20KUMARI.jpg',
       },
+      
       {
-        id: 8,
-        name: 'Kshitije',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/kshitijekvs',
-        instagram: 'https://www.instagram.com/Kshitijesingh_',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679797/profile%20pictures/KSHITIJE%20VINAY%20SINGH.jpg',
-      },
-      {
-        id: 9,
+        id: 2,
         name: 'Krish',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/krish-kumar-sinha-a9b422246',
@@ -663,7 +531,7 @@ const cardData = {
         image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680106/profile%20pictures/gdmndbkqs4pvm1dd8xay.jpg',
       },
       {
-        id: 10,
+        id: 3,
         name: 'Sanchita',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/sanchita-jha?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
@@ -671,7 +539,7 @@ const cardData = {
         image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680099/profile%20pictures/SANCHITA%20JHA.jpg',
       },
       {
-        id: 11,
+        id: 4,
         name: 'Shreyashi',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/shreyashi-chatterjee-5b684127b',
@@ -679,7 +547,7 @@ const cardData = {
         image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679798/profile%20pictures/SHREYASHI%20CHATTERJEE.jpg',
       },
       {
-        id: 12,
+        id: 5,
         name: 'Abhay',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/abhay-ravidas-a9933b233',
@@ -687,7 +555,7 @@ const cardData = {
         image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719727544/profile%20pictures/Abhay_Ravidas_nxklmk.jpg',
       },
       {
-        id: 13,
+        id: 6,
         name: 'Om',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/om-vats-6aab58280',
@@ -708,7 +576,7 @@ const cardData = {
       },
       {
         id: 2,
-        name: 'Harsh',
+        name: 'Suhana',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/suhana-singh-659012290/',
         instagram: ' ',
@@ -724,14 +592,6 @@ const cardData = {
       },
       {
         id: 4,
-        name: 'Supriya',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/supriya-raj-0128a4295/',
-        instagram: 'https://www.instagram.com/supriyaraj5073/',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680112/profile%20pictures/SUPRIYA%20RAJ.jpg',
-      },
-      {
-        id: 5,
         name: 'Kaushikee',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/kaushikee-kashyap-891a55314/',
@@ -739,24 +599,34 @@ const cardData = {
         image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679795/profile%20pictures/KAUSHIKEE%20KASHYAP.jpg',
       },
       {
-        id: 6,
-        name: 'Sanchita Jha',
+
+        id: 5,
+        name: 'Sanchita',
+
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/sanchita-jha/',
         instagram: 'https://www.instagram.com/sanchitaj_04/',
         image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680099/profile%20pictures/SANCHITA%20JHA.jpg',
       },
       {
-        id: 7,
+        id: 6,
         name: 'Om',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/om-vats-6aab58280/',
         instagram: 'https://www.instagram.com/omvats09/',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723298122/profile%20pictures/Om_Vats_h7jra0.jpg',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719829548/profile%20pictures/Om_Vats.jpg',
+      },
+      {
+        id: 7,
+        name: 'Harsh',
+        designation: 'Member',
+        linkedin: 'https://www.linkedin.com/in/harsh-dwivedi-4b9bb9289/',
+        instagram: 'https://www.instagram.com/harsh_ackreman/',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723196456/profile%20pictures/HarshKumarDwivedi_mlmyi6.jpg',
       },
       {
         id: 8,
-        name: 'Suhana',
+        name: 'Supriya',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/supriya-raj-0128a4295/',
         instagram: 'https://www.instagram.com/supriyaraj5073/',
@@ -769,38 +639,7 @@ const cardData = {
       
       {
         id: 1,
-        name: 'Neeraj',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/neeraj-kumar-96657330a/',
-        instagram: 'https://www.instagram.com/neerajk1617',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723304097/profile%20pictures/NEERAJ_KUMAR_cmesya.jpg',
-      },
-      {
-        id: 2,
-        name: 'Manaswini',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/manaswini-patil-981b03294',
-        instagram: 'https://www.instagram.com/manaswini_patil_',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679796/profile%20pictures/PATIL%20MANASWINI%20RAVINDRA.jpg',
-      },
-      {
-        id: 3,
-        name: 'Anshu',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/anshu-kumari-a32936257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
-        instagram: 'https://www.instagram.com/anshukumari?igsh=MWlybmVsejh1Z3d5NA==',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680096/profile%20pictures/ANSHU%20KUMARI.jpg',
-      },
-      {
-        id: 4,
-        name: 'Aishwarya',
-        designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/aishwarya-adak-573605237',
-        instagram: 'https://www.instagram.com/parlegtoyourchai',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679908/profile%20pictures/AISHWARYA%20ADAK.jpg',
-      },
-      {
-        id: 5,
+
         name: 'Abhay',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/abhay-ravidas-a9933b233',
@@ -808,7 +647,7 @@ const cardData = {
         image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719727544/profile%20pictures/Abhay_Ravidas_nxklmk.jpg',
       },
       {
-        id: 6,
+        id: 2,
         name: 'Krish',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/krish-kumar-sinha-a9b422246',
@@ -816,7 +655,7 @@ const cardData = {
         image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680106/profile%20pictures/gdmndbkqs4pvm1dd8xay.jpg',
       },
       {
-        id: 7,
+        id: 3,
         name: 'Aniket',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/aniket-kumar-142689219',

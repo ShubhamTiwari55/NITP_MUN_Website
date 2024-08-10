@@ -7,7 +7,11 @@ function RuleBook() {
   return (
     <>
       {/* <LandingPage/> */}
-      <div className="bg-gray-900 text-white p-10 md:p-20">
+      <div className="bg-gray-900 text-white p-10 md:p-20"
+       style={{ backgroundImage: `url('/bg3.jpg')`,
+        backgroundRepeat: `no-repeat`,
+        backgroundSize: 'cover',
+    }}>
         <section className="mb-5 sm:mb-10 sm:flex gap-5 p-1 md:px-4">
           <div className="mb-2 sm:mb-4 text-left">
             <div className="text-3xl md:text-5xl lg:text-7xl font-bold text-gray-700">
