@@ -35,7 +35,7 @@ const cardData = {
       },
       {
         id: 5,
-        name: 'Bhawna Roy',
+        name: 'Bhawna',
         designation: 'Co-Head of OC',
         linkedin: 'https://www.linkedin.com/in/bhawna-roy-164946257',
         instagram: 'https://www.instagram.com/bhawna.bhardwaj22',
@@ -43,7 +43,7 @@ const cardData = {
       },
       {
         id: 6,
-        name: 'Aditya Kumar',
+        name: 'Aditya ',
         designation: 'Head of Executive Board',
         linkedin: 'https://www.linkedin.com/in/aditya-kumar-7bb54b257/',
         instagram: 'https://www.instagram.com/adityakumar.393',
@@ -51,7 +51,7 @@ const cardData = {
       },
       {
         id: 7,
-        name: 'Reeya Ranjan',
+        name: 'Reeya ',
         designation: 'Co-Head of Executive Board',
         linkedin: 'https://www.linkedin.com/in/reeya-ranjan-bb963830a',
         instagram: 'https://www.instagram.com/reeyaranjan',
@@ -59,7 +59,7 @@ const cardData = {
       },
       {
         id: 8,
-        name: 'Lakshya Parashar',
+        name: 'Lakshya',
         designation: 'Head of Delegates Affairs',
         linkedin: 'https://www.linkedin.com/in/lakshya-parashar-65156b301',
         instagram: 'https://www.instagram.com/samwilson',
@@ -67,7 +67,7 @@ const cardData = {
       },
       {
         id: 9,
-        name: 'Shikha Thakur',
+        name: 'Shikha ',
         designation: 'Co-Head of Delegates Affairs',
         linkedin: 'https://www.linkedin.com/in/shikha-thakur-8028a7258/',
         instagram: 'https://www.instagram.com/nebula_k05',
@@ -75,7 +75,7 @@ const cardData = {
       },
       {
         id: 10,
-        name: 'Mayank Harsh',
+        name: 'Mayank ',
         designation: 'USG PR & Marketing Head',
         linkedin: 'https://www.linkedin.com/in/mayank-harsh-61704b278',
         instagram: 'https://www.instagram.com/mayank._.harsh',
@@ -83,7 +83,7 @@ const cardData = {
       },
       {
         id: 11,
-        name: 'Kshitije Vinay Singh',
+        name: 'Kshitije ',
         designation: 'USG PR & Marketing Co-Head',
         linkedin: 'https://www.linkedin.com/in/kshitijekvs',
         instagram: 'https://www.instagram.com/Kshitijesingh_',
@@ -91,7 +91,7 @@ const cardData = {
       },
       {
         id: 12,
-        name: 'Dipesh Kumar Singh',
+        name: 'Dipesh ',
         designation: 'USG Creative Head',
         linkedin: 'https://www.linkedin.com/in/dipesh-singh-0225891ba',
         instagram: 'https://www.instagram.com/di.pesh279',
@@ -99,7 +99,7 @@ const cardData = {
       },
       {
         id: 13,
-        name: 'Bhavya Sinha',
+        name: 'Bhavya',
         designation: 'USG Creative Co-Head',
         linkedin: 'https://www.linkedin.com/in/bhavya-sinha-',
         instagram: 'https://www.instagram.com/bhav_yeaaah',
@@ -107,7 +107,7 @@ const cardData = {
       },
       {
         id: 14,
-        name: 'Vani Kumari',
+        name: 'Vani ',
         designation: 'USG Content Head',
         linkedin: 'https://www.linkedin.com/in/vani-kumari-45645b245',
         instagram: 'https://www.instagram.com/vanisingh_2701/',
@@ -115,7 +115,7 @@ const cardData = {
       },
       {
         id: 15,
-        name: 'Supriya Kumari',
+        name: 'Supriya',
         designation: 'USG Content Co-Head',
         linkedin: 'https://www.linkedin.com/in/supriya-kumari-1021a7258',
         instagram: 'https://www.instagram.com/supriya_sharma_568',
@@ -123,7 +123,7 @@ const cardData = {
       },
       {
         id: 16,
-        name: 'Utsav Thakur',
+        name: 'Utsav ',
         designation: 'USG Design Head',
         linkedin: 'https://www.linkedin.com/in/utsav-thakur-960760294',
         instagram: 'https://www.instagram.com/thakur_utsav_',
@@ -131,7 +131,7 @@ const cardData = {
       },
       {
         id: 17,
-        name: 'Rai Chirag Kumar',
+        name: 'Chirag',
         designation: 'USG Design Co-Head',
         linkedin: 'https://www.linkedin.com/in/chirag-kumar-rai-bbb009271',
         instagram: 'https://www.instagram.com/chirag.rai31',
@@ -139,7 +139,7 @@ const cardData = {
       },
       {
         id: 18,
-        name: 'Neeraj Kumar',
+        name: 'Neeraj',
         designation: 'USG Media Head',
         linkedin: 'https://www.linkedin.com/in/neeraj-kumar-96657330a/',
         instagram: 'https://www.instagram.com/neerajk1617',
@@ -147,7 +147,7 @@ const cardData = {
       },
       {
         id: 19,
-        name: 'Anshu Kumari',
+        name: 'Anshu ',
         designation: 'USG Media Co-Head',
         linkedin: 'https://www.linkedin.com/in/anshu-kumari-a32936257',
         instagram: 'https://www.instagram.com/___anshukumari___',
@@ -155,7 +155,7 @@ const cardData = {
       },
       {
         id: 20,
-        name: 'Manaswini Patil',
+        name: 'Manaswini',
         designation: 'USG Social Media Head',
         linkedin: 'https://www.linkedin.com/in/manaswini-patil-981b03294',
         instagram: 'https://www.instagram.com/manaswini_patil_',
@@ -163,15 +163,15 @@ const cardData = {
       },
       {
         id: 21,
-        name: 'Aishwarya Pandit',
+        name: 'Aishwarya',
         designation: 'USG Social Media Co-Head',
-        linkedin: 'https://www.linkedin.com/in/aishwarya-pandit-176567234',
-        instagram: 'https://www.instagram.com/yours.aishwarya_',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680116/profile%20pictures/AISHSWARYA%20PANDIT.jpg',
+        linkedin: 'https://www.linkedin.com/in/aishwarya-adak-573605237',
+        instagram: 'https://www.instagram.com/parlegtoyourchai',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679908/profile%20pictures/AISHWARYA%20ADAK.jpg',
       },
       {
         id: 22,
-        name: 'Shubham Tiwari',
+        name: 'Shubham ',
         designation: 'USG Web Head',
         linkedin: 'https://www.linkedin.com/in/shubham-tiwari-966223253',
         instagram: 'https://www.instagram.com/shubham_tiwarii05/',
@@ -179,7 +179,7 @@ const cardData = {
       },
       {
         id: 23,
-        name: 'Shradha Jha',
+        name: 'Shradha ',
         designation: 'USG Web Co-Head',
         linkedin: 'https://www.linkedin.com/in/shradha-jha-68797621b',
         instagram: 'https://www.instagram.com/shradhajha06',
@@ -187,7 +187,7 @@ const cardData = {
       },
       {
         id: 24,
-        name: 'Nilabh Mishra',
+        name: 'Nilabh ',
         designation: 'USG Technical Head',
         linkedin: 'https://www.linkedin.com/in/nilabh-mishra-383788257',
         instagram: 'https://www.instagram.com/nilabh_mishra',
@@ -195,7 +195,7 @@ const cardData = {
       },
       {
         id: 25,
-        name: 'Lalit Kumar',
+        name: 'Lalit',
         designation: 'USG Technical Co-Head',
         linkedin: 'https://www.linkedin.com/in/lalit-kumar-b18a98284',
         instagram: 'https://www.instagram.com/maurya_lalit_7',
@@ -203,7 +203,7 @@ const cardData = {
       },
       {
         id: 26,
-        name: 'Akash Patel Singh',
+        name: 'Akash',
         designation: 'USG Logistics Head',
         linkedin: 'https://www.linkedin.com/in/akashpatelsingh1',
         instagram: 'https://www.instagram.com/akash.nitp',
@@ -211,7 +211,7 @@ const cardData = {
       },
       {
         id: 27,
-        name: 'Anish Kumar',
+        name: 'Anish',
         designation: 'USG Logistics Co-Head',
         linkedin: '',
         instagram: 'https://www.instagram.com/Anish_Anand_yadavanshi',
@@ -434,11 +434,11 @@ const cardData = {
       },
       {
         id: 6,
-        name: 'Om',
+        name: 'Ratnesh',
         designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/om-vats-6aab58280',
-        instagram: 'https://www.instagram.com/omvats09',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719829548/profile%20pictures/Om_Vats.jpg',
+        linkedin: 'https://www.linkedin.com/in/ratnesh-anand-nitp/',
+        instagram: ' ',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679909/profile%20pictures/Ratnesh%20Anand.jpg',
       },
     ],
   },
@@ -597,6 +597,7 @@ const cardData = {
   },
   Design: {
     members: [
+      
       {
         id: 1,
         name: 'Rai',
@@ -717,9 +718,9 @@ const cardData = {
         id: 2,
         name: 'Harsh',
         designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/harsh-dwivedi-4b9bb9289/',
-        instagram: 'https://www.instagram.com/harsh_ackreman/',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723196456/profile%20pictures/HarshKumarDwivedi_mlmyi6.jpg',
+        linkedin: 'https://www.linkedin.com/in/suhana-singh-659012290/',
+        instagram: ' ',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680106/profile%20pictures/suhana%20singh.jpg',
       },
       {
         id: 3,
@@ -746,6 +747,14 @@ const cardData = {
         image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719679795/profile%20pictures/KAUSHIKEE%20KASHYAP.jpg',
       },
       {
+        id: 5,
+        name: 'Sanchita Jha',
+        designation: 'Member',
+        linkedin: 'https://www.linkedin.com/in/sanchita-jha/',
+        instagram: 'https://www.instagram.com/sanchitaj_04/',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680099/profile%20pictures/SANCHITA%20JHA.jpg',
+      },
+      {
         id: 6,
         name: 'Om',
         designation: 'Member',
@@ -757,22 +766,23 @@ const cardData = {
         id: 7,
         name: 'Sanchita',
         designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/sanchita-jha/',
-        instagram: 'https://www.instagram.com/sanchitaj_04/',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680099/profile%20pictures/SANCHITA%20JHA.jpg',
+        linkedin: 'https://www.linkedin.com/in/harsh-dwivedi-4b9bb9289/',
+        instagram: 'https://www.instagram.com/harsh_ackreman/',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723196456/profile%20pictures/HarshKumarDwivedi_mlmyi6.jpg',
       },
       {
         id: 8,
         name: 'Suhana',
         designation: 'Member',
-        linkedin: 'https://www.linkedin.com/in/suhana-singh-659012290/',
-        instagram: ' ',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680106/profile%20pictures/suhana%20singh.jpg',
+        linkedin: 'https://www.linkedin.com/in/supriya-raj-0128a4295/',
+        instagram: 'https://www.instagram.com/supriyaraj5073/',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680112/profile%20pictures/SUPRIYA%20RAJ.jpg',
       },
     ],
   },
   Media: {
     members: [
+      
       {
         id: 1,
         name: 'Neeraj',
