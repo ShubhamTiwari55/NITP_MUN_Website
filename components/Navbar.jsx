@@ -2,55 +2,33 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { MdOutlineMenu } from "react-icons/md";
+import { MdClose } from "react-icons/md";
 
 const Navbar = () => {
   const [isnav, setIsnav] = useState(false);
 
   return (
     <div
-      className="bg-[#000829] w-full font-extrabold min-h-32"
+      className="bg-[#000829] w-full font-extrabold min-h-32 xl:bg-right lg:bg-[25%] bg-[15%] max-[500px]:bg-[10%]"
       style={{
-        backgroundImage: `url('navbar.png')`,
+        backgroundImage: `url('munNavbar.png')`,
         backgroundRepeat: `no-repeat`,
-        backgroundPosition: `right`,
-        backgroundSize: 'cover',
+        backgroundSize: "cover",
         margin: 0, // Ensure no extra margins
         padding: 0, // Ensure no extra padding
       }}
     >
-      <div className="flex justify-between items-center text-[#000829] p-0 mx-auto max-w-screen-xl">
-        <Link href="/">
-          <div className="cursor-pointer align-center ml-8 text-[#000829] lg:text-white">
-            <Image width={120} height={120} src="/logomun2.png" alt="logo" />
-          </div>
-        </Link>
+      <div className="text-[#000829] h-24 items-center flex p-0 mx-auto max-w-screen-xl justify-end">
         <div className="lg:hidden">
           <button
             onClick={() => setIsnav(!isnav)}
-            className="text-[#000829] focus:outline-none focus:text-white mr-8 sm:mr-16"
+            className="text-[#000829] focus:outline-none focus:text-white top-0 mr-8 sm:mr-16"
           >
             {!isnav ? (
-              <svg
-                className="h-6 w-6 fill-current"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M3 5h18v2H3V5zm0 6h18v2H3v-2zm0 6h18v2H3v-2z"
-                />
-              </svg>
+              <MdOutlineMenu className="text-black" size={"2em"} />
             ) : (
-              <svg
-                className="h-6 w-6 fill-current"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M4.293 19.707a1 1 0 0 1-1.414-1.414L10.586 12 2.293 3.707a1 1 0 1 1 1.414-1.414L12 10.586l8.293-8.293a1 1 0 1 1 1.414 1.414L13.414 12l8.293 8.293a1 1 0 0 1-1.414 1.414L12 13.414l-8.293 8.293z"
-                />
-              </svg>
+              <MdClose className="text-white" size={"2em"} />
             )}
           </button>
         </div>
@@ -66,7 +44,10 @@ const Navbar = () => {
               { href: "/Sponsors", text: "SPONSORS" },
             ].map((item, index) => (
               <li key={index}>
-                <Link href={item.href} className="p-2 font-['Coluna'] font-semibold rounded hover:rounded-full hover:text-white hover:bg-[#000829]">
+                <Link
+                  href={item.href}
+                  className="p-2 font-['Coluna'] font-semibold rounded hover:rounded-full hover:text-white hover:bg-[#000829]"
+                >
                   {item.text}
                 </Link>
               </li>
@@ -81,26 +62,17 @@ const Navbar = () => {
             onClick={() => setIsnav(!isnav)}
             className="text-white focus:outline-none fixed top-10 right-10"
           >
-            <svg
-              className="h-6 w-6 fill-current"
-              viewBox="0 0 24 24"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                fillRule="evenodd"
-                d="M4.293 19.707a1 1 0 0 1-1.414-1.414L10.586 12 2.293 3.707a1 1 0 1 1 1.414-1.414L12 10.586l8.293-8.293a1 1 0 1 1 1.414 1.414L13.414 12l8.293 8.293a1 1 0 0 1-1.414 1.414L12 13.414l-8.293 8.293z"
-              />
-            </svg>
+            <MdClose className="text-white" size={"2em"} />
           </button>
           <ul className="space-y-6">
             {[
-               { href: "/", text: "HOME" },
-               { href: "/Committee", text: "COMMITTEES" },
-               { href: "/Secretariat", text: "SECRETARIAT" },
-               { href: "/Gallery", text: "GALLERY" },
-               { href: "/Rulebook", text: "RULEBOOK" },
-               { href: "/Faqs", text: "FAQS" },
-               { href: "/Sponsors", text: "SPONSORS" },
+              { href: "/", text: "HOME" },
+              { href: "/Committee", text: "COMMITTEES" },
+              { href: "/Secretariat", text: "SECRETARIAT" },
+              { href: "/Gallery", text: "GALLERY" },
+              { href: "/Rulebook", text: "RULEBOOK" },
+              { href: "/Faqs", text: "FAQS" },
+              { href: "/Sponsors", text: "SPONSORS" },
             ].map((item, index) => (
               <li key={index} className="group relative">
                 <Link href={item.href} onClick={() => setIsnav(false)}>

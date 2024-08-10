@@ -71,8 +71,8 @@ const TeamCard = ({ member }) => {
         </div>
 
         <div className="flex flex-col mx-auto justify-center items-center">
-          <div className="text-blue-900 font-colona font-semibold text-xl lg:text-2xl">{member.name}</div>
-          <div>{member.designation}</div>
+          <div className="text-blue-900 font-colona font-semibold text-md lg:text-2xl">{member.name}</div>
+          <div className='text-sm lg:text-lg'>{member.designation}</div>
         </div>
 
       </div>

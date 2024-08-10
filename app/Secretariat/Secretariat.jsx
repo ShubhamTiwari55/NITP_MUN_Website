@@ -60,7 +60,7 @@ const Secretariat = () => {
 
   return (
     <div
-      className="container mx-auto px-10 lg:min-h-fit"
+      className="container mx-auto min-w-full px-10 lg:min-h-fit"
       style={{
         backgroundImage: 'url(Bg.jpg)',
         backgroundSize: 'cover',
