@@ -17,7 +17,7 @@ function RuleBook() {
               ATTIRE
             </h2>
           </div>
-          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-[#0F121C]">
+          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }} >
             <p className="text-2xl text-white mb-4">
               Delegates should be dressed in business-style attire. Delegates
               will not be allowed to take the floor in informal costume or
@@ -36,7 +36,7 @@ function RuleBook() {
               AGENDA
             </h2>
           </div>
-          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-[#0F121C]">
+          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }} >
             <p className="text-2xl text-white mb-4">
               In the context of the United Nations (UN), an "Agenda" refers to a
               concise list of specific topics or issues that member countries
@@ -64,7 +64,7 @@ function RuleBook() {
               AMENDMENTS
             </h2>
           </div>
-          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-[#0F121C]">
+          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="text-2xl text-white mb-4">
               "Amendments" are proposed changes or modifications to an existing
               resolution or document. They aim to revise specific clauses, add
@@ -85,7 +85,7 @@ function RuleBook() {
               SPEAKER'S LIST
             </h2>
           </div>
-          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-[#0F121C]">
+          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="text-2xl text-white mb-4">
               It is a list that contains the order of speakers in the committee.
               The specific way that the order is determined varies by
@@ -112,7 +112,7 @@ function RuleBook() {
               MOTION
             </h2>
           </div>
-          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-[#0F121C]">
+          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="text-2xl text-white mb-4">
               Motion is a specific action made by delegates to direct debate in
               a certain direction. Motions are proposals made to direct
@@ -206,7 +206,7 @@ function RuleBook() {
               RIGHT OF REPLY
             </h2>
           </div>
-          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-[#0F121C]">
+          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="text-2xl text-white mb-4">
               If a country is mentioned by name or is singled out during another
               delegate's speech, and the mention can be perceived negatively by
@@ -236,7 +236,7 @@ function RuleBook() {
               CHIT WRITING AND PASSING
             </h2>
           </div>
-          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-[#0F121C]">
+          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="text-2xl text-white mb-4">
               Delegates may find limited time to express their views and
               strategize on agendas. To address this, they can participate in
@@ -290,7 +290,7 @@ function RuleBook() {
               YIELD
             </h2>
           </div>
-          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-[#0F121C]">
+          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="text-2xl text-white mb-4">
               Yield is when a speaker decides to give up the remaining time in
               his or her speech. You must be very careful while using 'Yields',
@@ -341,7 +341,7 @@ function RuleBook() {
               POINTS
             </h2>
           </div>
-          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-[#0F121C]">
+          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="text-2xl text-white mb-4">
               Points are procedural tools that delegates can use to raise
               specific requests, seek clarification, or address procedural
@@ -395,7 +395,7 @@ function RuleBook() {
               CAUCUS
             </h2>
           </div>
-          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-[#0F121C]">
+          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="text-2xl text-white mb-4">
               A Caucus refers to a specific period of time during a committee
               session when delegates come together in smaller groups to engage
@@ -454,7 +454,7 @@ function RuleBook() {
               RESOLUTIONS
             </h2>
           </div>
-          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-[#0F121C]">
+          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="text-2xl text-white mb-4">
               The goal of the committee is to pass a resolution. Although you
               may not know how to write a resolution yet, it's important to know
@@ -574,7 +574,7 @@ function RuleBook() {
               SAMPLE RESOLUTIONS
             </h2>
           </div>
-          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-[#0F121C]">
+          <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="text-2xl text-white mb-4">
               Resolution GA/3/1.1 <br />
               <br />
