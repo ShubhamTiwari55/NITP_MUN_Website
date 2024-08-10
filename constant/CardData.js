@@ -630,7 +630,7 @@ const cardData = {
         image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723196456/profile%20pictures/HarshKumarDwivedi_mlmyi6.jpg',
       },
       {
-        id: 4,
+        id: 8,
         name: 'Supriya',
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/supriya-raj-0128a4295/',

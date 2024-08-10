@@ -39,7 +39,11 @@ Over the years, Expresso has built a legacy of fostering literary and public spe
 
   return (
     <>
-      <div className="flex flex-col bg-[#000829] px-4 py-6">
+      <div className="flex flex-col bg-[#000829] px-4 py-6"
+      style={{ backgroundImage: `url('/bg3.jpg')`,
+        backgroundRepeat: `no-repeat`,
+        backgroundSize: 'cover',
+    }}>
         {/* About NIT Patna Section */}
         <div className="relative w-full max-w-screen-lg mx-auto text-white rounded-3xl p-6 mb-6"
               style={{ backgroundImage: `url('/bg2.png')` }}

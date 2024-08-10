@@ -67,7 +67,7 @@ const Navbar = () => {
           <ul className="space-y-6">
             {[
               { href: "/", text: "HOME" },
-              { href: "/Committee", text: "COMMITTEES" },
+              { href: "/Committees", text: "COMMITTEES" },
               { href: "/Secretariat", text: "SECRETARIAT" },
               { href: "/Gallery", text: "GALLERY" },
               { href: "/Rulebook", text: "RULEBOOK" },
