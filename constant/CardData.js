@@ -343,7 +343,7 @@ const cardData = {
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/rupak-parashar-355053317',
         instagram: 'https://www.instagram.com/rajrupakparashar.47',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680112/profile%20pictures/rupak%20parashar.jpg',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723297321/profile%20pictures/Rupak%20Parashar1.jpg',
       },
       {
         id: 5,
@@ -351,7 +351,7 @@ const cardData = {
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/anurag-kumar-14ba2828b',
         instagram: 'https://www.instagram.com/tiwary_anuragg',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680113/profile%20pictures/ANURAG%20KUMAR.jpg',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723297312/profile%20pictures/Anurag%20Tiwari.jpg',
       },
       {
         id: 6,
@@ -428,7 +428,7 @@ const cardData = {
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/rupak-parashar-355053317/',
         instagram: 'https://www.instagram.com/rajrupakparashar.47/',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723175977/profile%20pictures/Rupak%20Parashar%20Profile.jpg',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723297321/profile%20pictures/Rupak%20Parashar1.jpg',
       },
       {
         id: 9,
@@ -436,7 +436,7 @@ const cardData = {
         designation: 'Member',
         linkedin: 'https://www.linkedin.com/in/anurag-kumar-14ba2828b/',
         instagram: 'https://www.instagram.com/tiwary_anuragg/',
-        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1719680113/profile%20pictures/ANURAG%20KUMAR.jpg',
+        image: 'https://res.cloudinary.com/dnbutfdy7/image/upload/v1723297312/profile%20pictures/Anurag%20Tiwari.jpg',
       },
       {
         id: 10,
