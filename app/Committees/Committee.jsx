@@ -96,20 +96,20 @@ The international press operates within a complex landscape of media freedom and
             } `}
           >
             <div
-              className="relative h-80 w-80 lg:mx-4 overflow-visible mx-auto "
+              className="relative h-80 w-80 lg:mx-4 overflow-visible mx-auto pb-20"
             >
               <Image
                 src={event.images[0]} // Only one image now
                 objectFit="cover"
                 alt="Event Picture"
-                height={220}
-                width={220}
+                height={300}
+                width={300}
               />
             </div>
           </div>
           <div className="flex flex-col w-full sm:ml-4 lg:mx-16">
             <div
-              className={`font-antonio text-[#FBD784] text-2xl sm:text-5xl underline ${
+              className={`font-antonio text-[#FBD784] text-2xl sm:text-5xl  ${
                 index % 2 !== 0 ? "text-right" : ""
               }`}
             >

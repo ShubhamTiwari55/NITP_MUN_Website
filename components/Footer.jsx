@@ -20,13 +20,22 @@ const Footer = () => {
 
         <div className="flex flex-col text-white py-4 items-center text-center md:justify-evenly">
           <h1 className="font-bold font-colona">CONTACT US</h1>
-          <a
-            href="mailto:expressoclub@nitp.ac.in"
+         <div className="flex flex-row justify-between">
+         <a
+            href="mailto:expresso.club@nitp.ac.in"
             target="blank"
             className="my-2"
           >
             <IoIosMail className="text-white w-6 h-6 md:w-10 md:h-10" />
           </a>
+          <a
+            href="mailto:nitpmun.club@nitp.ac.in"
+            target="blank"
+            className="my-2"
+          >
+            <IoIosMail className="text-white w-6 h-6 md:w-10 md:h-10" />
+          </a>
+         </div>
           <div className="text-white text-xs">
             <p className="mb-1 font-Antonio">
               Student Activity Centre (SAC), NIT Patna
@@ -56,6 +65,7 @@ const Footer = () => {
 
         <div className="flex flex-col text-white justify-between py-2 items-center text-center">
           <h1 className="font-Colona font-bold pt-4">ORGANISER</h1>
+          <Link href="https://expressonitp.vercel.app/" target="blank">
           <Image
             src="/expresso.png"
             className="pb-2"
@@ -63,6 +73,8 @@ const Footer = () => {
             width={80}
             height={80}
           />
+          </Link>
+          
         </div>
       </div>
     </>
