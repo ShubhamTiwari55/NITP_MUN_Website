@@ -20,7 +20,7 @@ In addition to its annual session, the General Assembly can hold special session
 The UNGA's work is vital in promoting peace, advancing development, protecting human rights, and addressing global challenges. By providing a platform for dialogue and negotiation, the General Assembly helps build consensus and foster cooperation among nations, striving to create a better and more sustainable world for all.
         `,
         images: [
-          "/GA.png",
+          "/General Assembly.png",
         ],
       },
       {
@@ -35,7 +35,7 @@ The UNSC also plays a crucial role in preventing conflicts through diplomacy and
 
 While the UNSC is vital for maintaining global stability, it faces criticism for its structure, particularly the veto power, which can lead to deadlock on critical issues. Despite this, the UNSC remains a cornerstone of international relations, striving to ensure a safer, more secure world.`,
         images: [
-          "/SC.png",
+          "/SecurityCouncil.png",
         ],
       },
       {
@@ -51,7 +51,7 @@ The report of a JPC is presented to both houses of Parliament and is debated by 
 JPCs are essential for ensuring parliamentary oversight, accountability, and transparency in government operations, enhancing the checks and balances within the Indian democratic system.
         `,
         images: [
-          "/JPC.png",
+          "/JointParliamentaryCommitee.png",
         ],
       },
       {
@@ -66,7 +66,7 @@ These organizations contribute to the flow of information across countries, fost
 
 The international press operates within a complex landscape of media freedom and regulation, and its work is essential for promoting transparency, understanding, and dialogue on a global scale.`,
         images: [
-          "/IP.png",
+          "/InternationalPress.png",
         ],
       },
     ];
