@@ -43,7 +43,7 @@ const TeamCard = ({ member }) => {
 
 //  YELLOW CARD   
     <>
-      <div className="w-32 lg:w-60 rounded-lg bg-[#ffd062] h-44 lg:h-72 z-4 overflow-visible flex flex-col"
+      <div className="w-32 lg:w-60 rounded-lg bg-[#ffd062] h-48 lg:h-[300px] z-4 overflow-visible flex flex-col"
       
       >
         <div className="flex flex-row items-center ">

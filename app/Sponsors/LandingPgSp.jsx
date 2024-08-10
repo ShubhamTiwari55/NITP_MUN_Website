@@ -29,7 +29,7 @@ function LandingPage() {
 
         <div>
           <div className="flex flex-row mx-auto align-center justify-center mr-32" >
-          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfrc4FQElZZ3qBXVTfAFK9U5nIfQyoeYzlfLGROfFx0MQL_eQ/viewform?usp=sf_link">
+          <Link href="https://docs.google.com/forms/d/e/1FAIpQLSfrc4FQElZZ3qBXVTfAFK9U5nIfQyoeYzlfLGROfFx0MQL_eQ/viewform?usp=sf_link" target='blank'>
           <button className=" absolute mt-12 bg-[#FBD784] text-[#000829] mx-auto px-8 py-4  font-bold rounded animate-pulse hover:text-[white] hover:border-4 hover:border-[#FBD784] hover:bg-[#000829] ">
           JOIN US          </button>
           </Link>

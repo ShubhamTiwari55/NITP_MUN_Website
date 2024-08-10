@@ -4,10 +4,11 @@ import Image from 'next/image';
 const Sponsors = () => {
   return (
     <>
-      <div className="relative w-full min-h-screen bg-gray-900 flex flex-col items-center text-white pt-24 px-4">
+      <div className="relative w-full min-h-screen bg-gray-900 flex flex-col items-center text-white pt-24 px-4"
+      >
   <div className="w-full flex flex-col items-center text-white">
     <h1 className="text-[6vw] sm:text-[4vw] md:text-[3vw] font-extrabold mb-8 text-[#FBD784] text-center tracking-wider">
-      SPONSERS
+      SPONSORS
     </h1>
           <div className="flex flex-col items-center space-y-8">
             {/* <div className="flex flex-col md:flex-row md:space-x-8 space-y-8 md:space-y-0 w-full max-w-6xl">

@@ -34,8 +34,11 @@ function LandingPage() {
           />
                     <h1 className=" text-[18px] md:text-[30px] font-bold align-text-bottom text-[#FBD784] pt-4">September 13, 2024 - September 15, 2024</h1>
 
-          <button className="mt-12 lg:mt-4 bg-[#FBD784] text-[#000829] px-5 py-3 font-bold rounded animate-pulse hover:text-[white] hover:border-4 hover:border-[#FBD784] hover:bg-[#000829] ">
-            DELEGATE PORTAL
+          <button className="mt-12 lg:mt-4 bg-[#FBD784] text-[#000829] px-5 py-3 font-bold rounded animate-pulse hover:text-[white] hover:border-4 hover:border-[#FBD784] hover:bg-[#000829] "
+          >
+            <a href="https://unstop.com/o/HUQtIAB?lb=vmHTSu8&utm_medium=Share&utm_source=WhatsApp" alt="unstop" target="_blank"
+    rel="noopener noreferrer" >DELEGATE PORTAL</a>
+            
           </button>
         </div>
       </div>
