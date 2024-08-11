@@ -48,9 +48,9 @@ Over the years, Expresso has built a legacy of fostering literary and public spe
         <div className="relative w-full max-w-screen-lg mx-auto font-montserrat text-white rounded-3xl p-6 mb-6"
               style={{ backgroundImage: `url('/bg2.png')` }}
         >
-          <div className="flex flex-col items-start">
-            <span className="text-5xl mb-2 font-semibold text-[#FBD784]">ABOUT</span>
-            <span className="text-2xl font-futura underline md:text-3xl">NIT PATNA</span>
+          <div className="font-montserrat flex flex-col items-start">
+            <span className="font-montserrat text-5xl mb-2 font-semibold text-[#FBD784]">ABOUT</span>
+            <span className="font-montserrat text-2xl md:text-3xl">NIT PATNA</span>
           </div>
           <div className="mt-4 text-left md:text-xl">
             <p className="p-0 w-full"
@@ -62,14 +62,14 @@ Over the years, Expresso has built a legacy of fostering literary and public spe
               <div className="text-center mt-4">
                 {showFullDescriptionNitPatna ? (
                   <span
-                    className="cursor-pointer text-xl text-blue-600 hover:underline"
+                    className="font-montserrat cursor-pointer text-xl text-blue-600 hover:underline"
                     onClick={handleReadLessNitPatna}
                   >
                     Read Less
                   </span>
                 ) : (
                   <span
-                    className="cursor-pointer text-xl text-blue-600 hover:underline"
+                    className="font-montserrat cursor-pointer text-xl text-blue-600 hover:underline"
                     onClick={handleReadMoreNitPatna}
                   >
                     Read More
@@ -84,9 +84,9 @@ Over the years, Expresso has built a legacy of fostering literary and public spe
         <div className=" relative w-full font-montserrat max-w-screen-lg mx-auto text-white rounded-3xl p-6 mb-6"
               style={{ backgroundImage: `url('/bg2.png')` }}
 >
-          <div className="flex flex-col items-start">
+          <div className="font-montserrat flex flex-col items-start">
             <span className="text-5xl mb-2 font-semibold text-[#FBD784]">ABOUT</span>
-            <span className="text-2xl font-futura underline md:text-3xl">EXPRESSO</span>
+            <span className="text-2xl md:text-3xl">EXPRESSO</span>
           </div>
           <div className="mt-4 text-left md:text-xl">
             <p className="p-0 w-full">
