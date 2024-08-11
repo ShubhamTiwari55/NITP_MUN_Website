@@ -78,7 +78,7 @@ The international press operates within a complex landscape of media freedom and
   }, []);
 
   return (
-    <div className="flex flex-col bg-[#131947] h-full pt-4 px-4 sm:px-8 sm:justify-center"
+    <div className="font-montserrat flex flex-col bg-[#131947] h-full pt-4 px-4 sm:px-8 sm:justify-center"
     style={{ backgroundImage: `url('/bg3.jpg')`,
       backgroundRepeat: `no-repeat`,
             backgroundSize: 'cover',}}
@@ -86,17 +86,17 @@ The international press operates within a complex landscape of media freedom and
       {events.map((event, index) => (
         <div
           key={event.id}
-          className={`flex flex-col sm:flex-row items-center sm:items-${
+          className={`flex font-montserrat flex-col sm:flex-row items-center sm:items-${
             index % 2 === 0 ? "start" : "end"
           } mt-4 gap-4`}
         >
           <div
-            className={`w-full sm:w-auto ${
+            className={`w-full font-montserrat sm:w-auto ${
               index % 2 !== 0 ? "sm:order-2" : ""
             } `}
           >
             <div
-              className="relative h-80 w-80 lg:mx-4 overflow-visible mx-auto pb-20"
+              className="font-montserrat relative h-80 w-80 lg:mx-4 overflow-visible mx-auto pb-20"
             >
               <Image
                 src={event.images[0]} // Only one image now
@@ -107,16 +107,16 @@ The international press operates within a complex landscape of media freedom and
               />
             </div>
           </div>
-          <div className="flex flex-col w-full sm:ml-4 lg:mx-16">
+          <div className="font-montserrat flex flex-col w-full sm:ml-4 lg:mx-16">
             <div
-              className={`font-antonio text-[#FBD784] text-2xl sm:text-5xl  ${
+              className={`font-montserrat text-[#FBD784] text-2xl sm:text-5xl  ${
                 index % 2 !== 0 ? "text-right" : ""
               }`}
             >
               {event.title}
             </div>
             <div
-              className="text-[#ffffff] text-base sm:text-lg bg-cover bg-center p-4 mt-4 mb-6 whitespace-pre-line overflow-y-auto max-h-64 rounded-2xl"
+              className="text-[#ffffff] font-montserrat text-base sm:text-lg bg-cover bg-center p-4 mt-4 mb-6 whitespace-pre-line overflow-y-auto max-h-64 rounded-2xl"
               style={{ backgroundImage: `url('/bg2.png')` }}
             >
               {event.description}

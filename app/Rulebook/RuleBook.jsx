@@ -7,7 +7,7 @@ function RuleBook() {
   return (
     <>
       {/* <LandingPage/> */}
-      <div className="bg-gray-900 text-white p-10 md:p-20"
+      <div className=" font-montserrat bg-gray-900 text-white p-10 md:p-20"
        style={{ backgroundImage: `url('/bg3.jpg')`,
         backgroundRepeat: `no-repeat`,
         backgroundSize: 'cover',
@@ -22,7 +22,7 @@ function RuleBook() {
             </h2>
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }} >
-            <p className="text-2xl text-white mb-4">
+            <p className="font-montserrat text-2xl text-white mb-4">
               Delegates should be dressed in business-style attire. Delegates
               will not be allowed to take the floor in informal costume or
               inappropriately revealing outfits. Traditional clothing is allowed
@@ -41,7 +41,7 @@ function RuleBook() {
             </h2>
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }} >
-            <p className="text-2xl text-white mb-4">
+            <p className="font-montserrat text-2xl text-white mb-4">
               In the context of the United Nations (UN), an "Agenda" refers to a
               concise list of specific topics or issues that member countries
               address during meetings and conferences. It sets the framework for
@@ -69,7 +69,7 @@ function RuleBook() {
             </h2>
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
-            <p className="text-2xl text-white mb-4">
+            <p className="font-montserrat text-2xl text-white mb-4">
               "Amendments" are proposed changes or modifications to an existing
               resolution or document. They aim to revise specific clauses, add
               new information, or remove certain provisions. Delegates put
@@ -85,12 +85,12 @@ function RuleBook() {
             <div className="text-3xl md:text-5xl lg:text-7xl font-bold text-gray-700">
               04
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
+            <h2 className="font-montserrat text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
               SPEAKER'S LIST
             </h2>
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
-            <p className="text-2xl text-white mb-4">
+            <p className="font-montserrat text-2xl text-white mb-4">
               It is a list that contains the order of speakers in the committee.
               The specific way that the order is determined varies by
               conference. The Speaker's List is the default format of debate and
@@ -102,7 +102,7 @@ function RuleBook() {
             <div className="text-3xl md:text-5xl lg:text-7xl font-bold text-gray-700">
               04
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
+            <h2 className="font-montserrat text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
               SPEAKER'S LIST
             </h2>
           </div>
@@ -112,12 +112,12 @@ function RuleBook() {
             <div className="text-3xl md:text-5xl lg:text-7xl font-bold text-gray-700">
               05
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
+            <h2 className="font-montserrat text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
               MOTION
             </h2>
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
-            <p className="text-2xl text-white mb-4">
+            <p className="font-montserrat text-2xl text-white mb-4">
               Motion is a specific action made by delegates to direct debate in
               a certain direction. Motions are proposals made to direct
               discussions and decisions. They structure debates, set agendas,
@@ -206,12 +206,12 @@ function RuleBook() {
             <div className="text-3xl md:text-5xl lg:text-7xl font-bold text-gray-700">
               06
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
+            <h2 className="font-montserrat text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
               RIGHT OF REPLY
             </h2>
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
-            <p className="text-2xl text-white mb-4">
+            <p className="font-montserrat text-2xl text-white mb-4">
               If a country is mentioned by name or is singled out during another
               delegate's speech, and the mention can be perceived negatively by
               that country, they may ask the Chair for a Right of Reply. If
@@ -226,7 +226,7 @@ function RuleBook() {
             <div className="text-3xl md:text-5xl lg:text-7xl font-bold text-gray-700">
               06
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
+            <h2 className="font-montserrat text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
               RIGHT OF REPLY
             </h2>
           </div>
@@ -236,12 +236,12 @@ function RuleBook() {
             <div className="text-3xl md:text-5xl lg:text-7xl font-bold text-gray-700">
               07
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
+            <h2 className="font-montserrat text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
               CHIT WRITING AND PASSING
             </h2>
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
-            <p className="text-2xl text-white mb-4">
+            <p className="font-montserrat text-2xl text-white mb-4">
               Delegates may find limited time to express their views and
               strategize on agendas. To address this, they can participate in
               concise informal discussions using chits. This also contributes to
@@ -295,7 +295,7 @@ function RuleBook() {
             </h2>
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
-            <p className="text-2xl text-white mb-4">
+            <p className="font-montserrat text-2xl text-white mb-4">
               Yield is when a speaker decides to give up the remaining time in
               his or her speech. You must be very careful while using 'Yields',
               proper use can give you points and vice-versa. Typically, the
@@ -346,7 +346,7 @@ function RuleBook() {
             </h2>
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
-            <p className="text-2xl text-white mb-4">
+            <p className="font-montserrat text-2xl text-white mb-4">
               Points are procedural tools that delegates can use to raise
               specific requests, seek clarification, or address procedural
               matters during the committee session, Points are used to ensure
@@ -400,7 +400,7 @@ function RuleBook() {
             </h2>
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
-            <p className="text-2xl text-white mb-4">
+            <p className="font-montserrat text-2xl text-white mb-4">
               A Caucus refers to a specific period of time during a committee
               session when delegates come together in smaller groups to engage
               in more informal and focused discussions on specific agenda topics
@@ -459,7 +459,7 @@ function RuleBook() {
             </h2>
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
-            <p className="text-2xl text-white mb-4">
+            <p className="font-montserrat text-2xl text-white mb-4">
               The goal of the committee is to pass a resolution. Although you
               may not know how to write a resolution yet, it's important to know
               the basic terms so you can write one yourself and keep up as they
@@ -574,12 +574,12 @@ function RuleBook() {
             <div className="text-3xl md:text-5xl lg:text-7xl font-bold text-gray-700">
               12
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
+            <h2 className="font-montserrat text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
               SAMPLE RESOLUTIONS
             </h2>
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
-            <p className="text-2xl text-white mb-4">
+            <p className="font-montserrat text-2xl text-white mb-4">
               Resolution GA/3/1.1 <br />
               <br />
               General Assembly <br />
@@ -671,7 +671,7 @@ function RuleBook() {
             <div className="text-3xl md:text-5xl lg:text-7xl font-bold text-gray-700">
               12
             </div>
-            <h2 className="text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
+            <h2 className="font-montserrat text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
               SAMPLE RESOLUTIONS
             </h2>
           </div>
