@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div
-      className="bg-[#000829] w-full font-extrabold min-h-32 xl:bg-right lg:bg-[25%] bg-[15%] max-[500px]:bg-[10%]"
+      className="bg-[#000829] w-full font-extrabold min-h-32 xl:bg-left lg:bg-[25%] bg-[15%] max-[500px]:bg-[10%]"
       style={{
         backgroundImage: `url('munNavbar.png')`,
         backgroundRepeat: `no-repeat`,
