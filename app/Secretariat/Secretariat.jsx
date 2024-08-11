@@ -16,7 +16,7 @@ const Secretariat = () => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 900,
     slidesToShow: 5,
     slidesToScroll: 3,
     autoplay: true,
