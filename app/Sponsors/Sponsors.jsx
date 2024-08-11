@@ -17,16 +17,19 @@ const Sponsors = () => {
             SPONSORS
           </h1>
 
-          <div className="flex flex-col md:flex-row flex-wrap px-4 py-2 gap-8 md:gap-16 w-full max-w-7xl">
+          <div className="flex flex-col md:flex-row flex-wrap px-4 py-2 gap-8 md:gap-16 w-full max-w-xl">
             {sponsorsData.sponsors.map((sponsor) => {
               return (
-                <div className="w-full md:w-[45%]">
-                  <div className="w-full h-full">
+                <div className="w-full md:w-[40%]"> 
+                  <div className="w-full h-auto"> 
                     <img
-                      className="w-full h-full contain"
+                      className="w-full h-auto object-contain" 
                       src={sponsor.img}
                       alt={sponsor.name}
                     />
+                  </div>
+                  <div className="mx-auto text-center mt-6 py-4 rounded-lg bg-white lg:text-xl text-blue-800 font-montserrat font-extrabold backdrop-filter backdrop-blur-lg justify-center">
+                    {sponsor.name}
                   </div>
                 </div>
               );
@@ -43,16 +46,19 @@ const Sponsors = () => {
             PARTNERS
           </h1>
 
-          <div className="flex flex-col md:flex-row flex-wrap px-4 py-2 gap-8 md:gap-16 w-full max-w-7xl">
+          <div className="flex flex-col md:flex-row flex-wrap px-4 py-2 gap-10 md:gap-16 w-full max-w-5xl"> {/* Increased gap */}
             {sponsorsData.patners.map((partner) => {
               return (
-                <div className="w-full md:w-[45%]">
-                  <div className="w-full h-full">
+                <div className="w-full md:w-[40%] justify-center mx-auto items-center"> {/* Adjust width */}
+                  <div className="w-full h-auto lg:h-[140px]"> {/* Adjust height */}
                     <img
-                      className="w-full h-full contain"
+                      className="w-full h-auto object-contain"
                       src={partner.img}
                       alt="LOGO"
                     />
+                  </div>
+                  <div className="mx-auto text-center mt-6 py-4 rounded-lg bg-white lg:text-xl text-blue-800 font-montserrat font-extrabold backdrop-filter backdrop-blur-lg justify-center">
+                    {partner.name}
                   </div>
                 </div>
               );
@@ -69,23 +75,27 @@ const Sponsors = () => {
             COLLABORATORS
           </h1>
 
-          <div className="flex flex-col md:flex-row flex-wrap px-4 py-2 gap-8 md:gap-16 w-full max-w-7xl">
+          <div className="flex flex-col md:flex-row flex-wrap px-4 py-2 gap-12 w-full max-w-5xl justify-center"> {/* Increased gap */}
             {sponsorsData.collaborators.map((collaborator) => {
               return (
-                <div className="w-full bg-white md:w-[45%]">
-                  <div className="w-full h-full">
+                <div className="w-full md:w-[35%] m-2 p-2"> {/* Adjust width */}
+                  <div className="w-full h-auto  bg-white  rounded-lg lg:h-[330px] "> {/* Adjust height */}
                     <img
-                      className="w-full h-full contain"
+                      className="w-full h-auto object-contain" 
                       src={collaborator.img}
                       alt={collaborator.name}
                     />
+                  </div>
+                  <div className="my-4" ></div>
+                  <div className="mx-auto text-center mt-6 py-4 rounded-lg bg-white lg:text-lg text-blue-800 font-montserrat font-extrabold backdrop-filter backdrop-blur-lg align-bottom">
+                    {collaborator.name}
                   </div>
                 </div>
               );
             })}
           </div>
         </div>
-        <div className="mt-16"></div>
+        <div className="mt-16"></div> {/* Add space after the content */}
       </div>
     </div>
   );

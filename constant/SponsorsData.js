@@ -1,22 +1,22 @@
 const sponsorsData = {
     sponsors: [
-      {
-        id: 1,
-        name: "SPONSOR1",
-        img: "",
-        type: "",
-      },
+      // {
+      //   id: 1,
+      //   name: "SPONSOR1",
+      //   img: "",
+      //   type: "",
+      // },
     ],
     patners: [
       {
         id: 2,
-        name: "FASHION HERLAND",
+        name: "MEDIA PARTNER",
         img: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1723298866/MUNLogo/New-logo_cjyacp.png",
         type: "",
       },
       {
         id: 3,
-        name: "L'UTOPIA MAGZINE",
+        name: "GIFTING PARTNER",
         img: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1723298865/MUNLogo/L_utopia_Magazine_rvbvpx.png",
         type: "",
       },
@@ -30,13 +30,13 @@ const sponsorsData = {
       },
       {
         id: 2,
-        name: "IIT INDORE",
+        name: "IIT INDORE MUN",
         img: "/indore.jpg",
         type: "",
       },
       {
         id: 3,
-        name: "IIT DELHI",
+        name: "IIT DELHI MUN",
         img: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1723298675/MUNLogo/MUN_logo_vtozzu.png",
         type: "",
       },
@@ -48,7 +48,7 @@ const sponsorsData = {
       },
       {
         id: 5,
-        name: "MUNSOC",
+        name: "MUNSOC NITA",
         img: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1723298675/MUNLogo/IMG-20230626-WA0010-modified_mzf3qt.png",
         type: "",
       },
