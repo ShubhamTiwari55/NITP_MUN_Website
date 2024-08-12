@@ -6,16 +6,11 @@ import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata = {
-  title: "NITP MUN",
-};
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
+        <title>NITP MUN</title>
         <link rel="icon" href="/favicon.ico" /> {/* Add this line */}
       </head>
       <body className={inter.className}>
