@@ -22,7 +22,7 @@ function LandingPage() {
             />
           </div>
           
-          <h1 className="text-[10vw] md:text-[8vw] font-extrabold sm:mt-[-5%] md:mt-[-10%] lg:mt-[-12%] text-[#FBD784]">FAQ's</h1>
+          <h1 className="text-[10vw] md:text-[8vw] font-extrabold sm:mt-[-5%] md:mt-[-10%] lg:mt-[-12%] text-[#FBD784]">FAQs</h1>
 
           <h1 className="text-[4vw] md:text-[2vw] font-extrabold align-text-bottom text-[#FBD784]">September 13 - September 15, 2024</h1>
         </div>

@@ -42,7 +42,7 @@ function RuleBook() {
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }} >
             <p className="font-montserrat text-2xl text-white mb-4">
-              In the context of the United Nations (UN), an "Agenda" refers to a
+              In the context of the United Nations (UN), an `Agenda` refers to a
               concise list of specific topics or issues that member countries
               address during meetings and conferences. It sets the framework for
               discussions, allowing representatives to propose solutions,
@@ -70,7 +70,7 @@ function RuleBook() {
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="font-montserrat text-2xl text-white mb-4">
-              "Amendments" are proposed changes or modifications to an existing
+              `Amendments` are proposed changes or modifications to an existing
               resolution or document. They aim to revise specific clauses, add
               new information, or remove certain provisions. Delegates put
               forward amendments during debates to refine the resolution to gain
@@ -86,14 +86,14 @@ function RuleBook() {
               04
             </div>
             <h2 className="font-montserrat text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
-              SPEAKER'S LIST
+              SPEAKER LIST
             </h2>
           </div>
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="font-montserrat text-2xl text-white mb-4">
               It is a list that contains the order of speakers in the committee.
               The specific way that the order is determined varies by
-              conference. The Speaker's List is the default format of debate and
+              conference. The Speaker List is the default format of debate and
               the committee will proceed with speeches until a delegate makes a
               motion to change up the debate format.
             </p>
@@ -103,7 +103,7 @@ function RuleBook() {
               04
             </div>
             <h2 className="font-montserrat text-3xl lg:text-4xl font-bold pl-5 md:pl-10">
-              SPEAKER'S LIST
+              SPEAKER LIST
             </h2>
           </div>
         </section>
@@ -195,7 +195,7 @@ function RuleBook() {
                   <br />
                   This motion is made towards the end of the conference when the
                   delegates wish to end the session. It signals the conclusion
-                  of the committee's work and officially adjourns the session.
+                  of the committees work and officially adjourns the session.
                 </li>
               </ol>
             </p>{" "}
@@ -213,11 +213,11 @@ function RuleBook() {
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="font-montserrat text-2xl text-white mb-4">
               If a country is mentioned by name or is singled out during another
-              delegate's speech, and the mention can be perceived negatively by
+              delegate speech, and the mention can be perceived negatively by
               that country, they may ask the Chair for a Right of Reply. If
               granted, a Right of Reply allows a country to speak immediately
-              after the "accusing" country has finished, regardless of the
-              replying country's place in line. The Chair can use his/her
+              after the `accusing` country has finished, regardless of the
+              replying country place in line. The Chair can use his/her
               discretion to regulate the use of this motion for the sake of good
               decorum.{" "}
             </p>
@@ -246,12 +246,12 @@ function RuleBook() {
               strategize on agendas. To address this, they can participate in
               concise informal discussions using chits. This also contributes to
               the assessment process. Delegates write crisp chits indicating
-              their country's name, discussion topics, and recipient's country.
+              their country name, discussion topics, and recipient country.
               The process follows the given Sequence: <br />
               <br />
               <ol>
                 <li>
-                  1. Delegates write chits, including the sender and receiver's
+                  1. Delegates write chits, including the sender and receiver
                   country names,
                 </li>
                 <br />
@@ -279,7 +279,7 @@ function RuleBook() {
               </ol>
               This approach empowers delegates to enhance engagement, plan
               effectively, and establish connections while ensuring transparency
-              and maintaining the Chair's oversight. The Source and destination
+              and maintaining the Chair oversight. The Source and destination
               countries for each chit are clearly stated to ensure proper
               communication channels.{" "}
             </p>
@@ -297,7 +297,7 @@ function RuleBook() {
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="font-montserrat text-2xl text-white mb-4">
               Yield is when a speaker decides to give up the remaining time in
-              his or her speech. You must be very careful while using 'Yields',
+              his or her speech. You must be very careful while using `Yields`,
               proper use can give you points and vice-versa. Typically, the
               three types of yields are: <br />
               <br />
@@ -320,7 +320,7 @@ function RuleBook() {
                 <li>
                   <b>3. Yield to questions:</b>
                   <br />
-                  It means you give up you're from speech to answer questions
+                  It means you give up you are from speech to answer questions
                   from other delegates or to Yield to comments to your speech by
                   other delegates.
                 </li>
@@ -362,7 +362,7 @@ function RuleBook() {
                   <br />
                   It is used when a delegate has a question about something that
                   is not clearly understood in the committee. Use this to ask a
-                  question if you don't understand a term or get what's going on
+                  question if you do not understand a term or get what is going on
                   in committee?
                 </li>
                 <br />
@@ -374,7 +374,7 @@ function RuleBook() {
                   It is used when a delegate experiences personal discomfort
                   that hinders their ability to participate in the committee.
                   Examples: temperature of room, distractions during committee,
-                  can't hear another delegate, etc.
+                  can not hear another delegate, etc.
                 </li>
                 <br />
 
@@ -419,7 +419,7 @@ function RuleBook() {
                   overall speaking time, the time per speaker, and the sub-issue
                   to be discussed. Example: Italy moves for a 5-minute moderated
                   caucus with 30 seconds of speaking time per delegate for the
-                  purpose of discussing solutions to women's rights.
+                  purpose of discussing solutions to women rights.
                 </li>
                 <br />
 
@@ -461,7 +461,7 @@ function RuleBook() {
           <div className="mt-2 sm:mt-10 max-h-[40vh] lg:w-[1200px] p-5 sm:p-10 overflow-y-scroll bg-cover bg-center" style={{ backgroundImage: `url('/bg2.png')` }}>
             <p className="font-montserrat text-2xl text-white mb-4">
               The goal of the committee is to pass a resolution. Although you
-              may not know how to write a resolution yet, it's important to know
+              may not know how to write a resolution yet, it is important to know
               the basic terms so you can write one yourself and keep up as they
               are presented. Remember writing and getting your Resolutions
               passed by the committee establishes you as a respected delegate
@@ -589,8 +589,8 @@ function RuleBook() {
               Signatories: Greece, Tajikistan, Japan, Canada, Mali, the
               Netherlands, and Gabon <br />
               <br />
-              Topic: "Strengthening UN Coordination of Humanitarian Assistance
-              in Complex Emergencies" <br />
+              Topic: `Strengthening UN Coordination of Humanitarian Assistance
+              in Complex Emergencies` <br />
               <br />
               <br />
               The General Assembly. <br />
