@@ -52,6 +52,18 @@ const sponsorsData = {
       image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1723298675/MUNLogo/IMG-20230626-WA0010-modified_mzf3qt.png",
       type: "",
     },
+    {
+      id: 6,
+      name: "IIIT Naya Raipur",
+      image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1724599438/MUNLogo/Screenshot_20240825_205055_Adobe_Acrobat_rklb9r.jpg",
+      type: "",
+    },
+    {
+      id: 7,
+      name: "Hoot",
+      image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1724599438/MUNLogo/Screenshot_20240825_205112_Adobe_Acrobat_enqpuw.jpg",
+      type: "",
+    },
   ],
 };
 
