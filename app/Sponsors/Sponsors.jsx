@@ -52,7 +52,7 @@ const Sponsors = () => {
                   />
                 </div>
                 <div className="mx-auto text-center mt-6 py-4 rounded-lg bg-white lg:text-xl text-blue-800 font-montserrat font-extrabold backdrop-filter backdrop-blur-lg justify-center">
-                  {partner.name}
+                    <a href={partner.weblink} target="_blank">{partner.name}</a> 
                 </div>
               </div>
             ))}

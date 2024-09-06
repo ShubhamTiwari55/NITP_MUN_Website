@@ -13,12 +13,14 @@ const sponsorsData = {
       name: "MEDIA PARTNER",
       image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1723298866/MUNLogo/New-logo_cjyacp.png",
       type: "",
+      weblink:"http://fashionherald.in/",
     },
     {
       id: 3,
-      name: "GIFTING PARTNER",
+      name: "MEDIA PARTNER",
       image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1723298865/MUNLogo/L_utopia_Magazine_rvbvpx.png",
       type: "",
+      weblink:"https://www.lutopiamagazine.com/editors-choice",
     },
   ],
   collaborators: [
@@ -42,8 +44,8 @@ const sponsorsData = {
     },
     {
       id: 4,
-      name: "KIIT MUN",
-      image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1723298674/MUNLogo/228885355_1248533545645595_7676336129308392846_n_kldp6v.jpg",
+      name: "NIT SILCHAR MUN",
+      image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1725618668/NIT_Silchar_dt0rnl_b_rgb_333B4C_a6czmp.png",
       type: "",
     },
     {
