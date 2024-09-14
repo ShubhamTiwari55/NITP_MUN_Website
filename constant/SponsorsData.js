@@ -1,11 +1,16 @@
 const sponsorsData = {
   sponsors: [
-    // {
-    //   id: 1,
-    //   name: "SPONSOR1",
-    //   img: "",
-    //   type: "",
-    // },
+    {
+      id: 1,
+      name: "SPONSORS",
+      image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1726160352/MUNLogo/h2osolutions_fjzpvo.jpg",
+      type: "",
+    },  {
+      id: 2,
+      name: "SPONSORS",
+      image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1726160352/MUNLogo/sapexecutors_nvru6c.jpg",
+      type: "",
+    },
   ],
   partners: [ // Corrected from 'patners' to 'partners'
     {
@@ -21,6 +26,13 @@ const sponsorsData = {
       image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1723298865/MUNLogo/L_utopia_Magazine_rvbvpx.png",
       type: "",
       weblink:"https://www.lutopiamagazine.com/editors-choice",
+    },
+    {
+      id: 3,
+      name: "MEDIA PARTNER",
+      image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1726160352/MUNLogo/gardapatna_bbnng2.png",
+      type: "",
+      weblink:"https://gardapatna.com/",
     },
   ],
   collaborators: [
