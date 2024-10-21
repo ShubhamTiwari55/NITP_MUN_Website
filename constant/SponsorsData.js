@@ -11,6 +11,12 @@ const sponsorsData = {
       image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1726160352/MUNLogo/sapexecutors_nvru6c.jpg",
       type: "",
     },
+    {
+      id: 3,
+      name: "SPONSORS",
+      image: "https://res.cloudinary.com/dnbutfdy7/image/upload/v1729536676/a4b9bf5f-1c70-4e3e-9de6-e509ddd06a46.png",
+      type: "",
+    },
   ],
   partners: [ // Corrected from 'patners' to 'partners'
     {
